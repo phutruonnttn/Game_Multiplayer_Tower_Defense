@@ -1,0 +1,2 @@
+13 Dec 2022 12:00:19,040 WARN  [EngineWriter-3] bitzero.core.s     - Error during write. Session: { Id: 2, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:59512 }
+13 Dec 2022 15:28:35,302 WARN  [EngineWriter-2] bitzero.core.s     - Error during write. Session: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:61072 }

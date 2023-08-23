@@ -1,0 +1,230 @@
+
+effect_buff_speed.png
+size: 471,471
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Effect_light_pixel/Effect_light_pixel_0
+  rotate: true
+  xy: 79, 75
+  size: 71, 80
+  orig: 160, 160
+  offset: 45, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_1
+  rotate: false
+  xy: 156, 148
+  size: 73, 79
+  orig: 160, 160
+  offset: 44, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_10
+  rotate: false
+  xy: 312, 85
+  size: 75, 77
+  orig: 160, 160
+  offset: 42, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_11
+  rotate: false
+  xy: 79, 229
+  size: 76, 78
+  orig: 160, 160
+  offset: 41, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_12
+  rotate: false
+  xy: 235, 391
+  size: 76, 78
+  orig: 160, 160
+  offset: 41, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_13
+  rotate: false
+  xy: 157, 229
+  size: 76, 78
+  orig: 160, 160
+  offset: 41, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_14
+  rotate: false
+  xy: 79, 390
+  size: 76, 79
+  orig: 160, 160
+  offset: 41, 42
+  index: -1
+Effect_light_pixel/Effect_light_pixel_15
+  rotate: false
+  xy: 79, 309
+  size: 76, 79
+  orig: 160, 160
+  offset: 41, 42
+  index: -1
+Effect_light_pixel/Effect_light_pixel_16
+  rotate: false
+  xy: 157, 390
+  size: 76, 79
+  orig: 160, 160
+  offset: 41, 42
+  index: -1
+Effect_light_pixel/Effect_light_pixel_17
+  rotate: false
+  xy: 157, 309
+  size: 76, 79
+  orig: 160, 160
+  offset: 41, 42
+  index: -1
+Effect_light_pixel/Effect_light_pixel_18
+  rotate: false
+  xy: 2, 142
+  size: 75, 79
+  orig: 160, 160
+  offset: 41, 42
+  index: -1
+Effect_light_pixel/Effect_light_pixel_19
+  rotate: false
+  xy: 79, 148
+  size: 75, 79
+  orig: 160, 160
+  offset: 41, 42
+  index: -1
+Effect_light_pixel/Effect_light_pixel_2
+  rotate: false
+  xy: 161, 70
+  size: 73, 76
+  orig: 160, 160
+  offset: 44, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_20
+  rotate: true
+  xy: 390, 174
+  size: 70, 79
+  orig: 160, 160
+  offset: 45, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_21
+  rotate: true
+  xy: 390, 319
+  size: 71, 79
+  orig: 160, 160
+  offset: 45, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_22
+  rotate: true
+  xy: 390, 246
+  size: 71, 79
+  orig: 160, 160
+  offset: 45, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_23
+  rotate: false
+  xy: 2, 60
+  size: 73, 80
+  orig: 160, 160
+  offset: 43, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_24
+  rotate: false
+  xy: 2, 388
+  size: 75, 81
+  orig: 160, 160
+  offset: 41, 42
+  index: -1
+Effect_light_pixel/Effect_light_pixel_25
+  rotate: false
+  xy: 2, 305
+  size: 75, 81
+  orig: 160, 160
+  offset: 41, 42
+  index: -1
+Effect_light_pixel/Effect_light_pixel_26
+  rotate: false
+  xy: 2, 223
+  size: 75, 80
+  orig: 160, 160
+  offset: 41, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_27
+  rotate: false
+  xy: 235, 230
+  size: 73, 80
+  orig: 160, 160
+  offset: 43, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_28
+  rotate: true
+  xy: 77, 5
+  size: 68, 80
+  orig: 160, 160
+  offset: 46, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_29
+  rotate: true
+  xy: 236, 2
+  size: 67, 80
+  orig: 160, 160
+  offset: 46, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_3
+  rotate: false
+  xy: 231, 150
+  size: 74, 77
+  orig: 160, 160
+  offset: 43, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_4
+  rotate: false
+  xy: 236, 71
+  size: 74, 77
+  orig: 160, 160
+  offset: 43, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_5
+  rotate: true
+  xy: 391, 395
+  size: 74, 78
+  orig: 160, 160
+  offset: 43, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_6
+  rotate: false
+  xy: 235, 312
+  size: 76, 77
+  orig: 160, 160
+  offset: 42, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_7
+  rotate: false
+  xy: 313, 392
+  size: 76, 77
+  orig: 160, 160
+  offset: 42, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_8
+  rotate: false
+  xy: 313, 235
+  size: 75, 76
+  orig: 160, 160
+  offset: 42, 43
+  index: -1
+Effect_light_pixel/Effect_light_pixel_9
+  rotate: false
+  xy: 313, 313
+  size: 75, 77
+  orig: 160, 160
+  offset: 42, 43
+  index: -1
+circle_speed
+  rotate: false
+  xy: 318, 15
+  size: 69, 68
+  orig: 70, 70
+  offset: 0, 1
+  index: -1
+circle_speed2
+  rotate: false
+  xy: 318, 164
+  size: 70, 69
+  orig: 75, 75
+  offset: 2, 3
+  index: -1

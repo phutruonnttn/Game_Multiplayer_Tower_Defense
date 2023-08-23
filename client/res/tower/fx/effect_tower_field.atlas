@@ -1,0 +1,118 @@
+
+effect_tower_field.png
+size: 585,585
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_field
+  rotate: false
+  xy: 437, 23
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+effect_tower_field_0
+  rotate: false
+  xy: 2, 294
+  size: 144, 143
+  orig: 150, 150
+  offset: 4, 4
+  index: -1
+effect_tower_field_10
+  rotate: false
+  xy: 2, 2
+  size: 143, 144
+  orig: 150, 150
+  offset: 4, 3
+  index: -1
+effect_tower_field_12
+  rotate: false
+  xy: 147, 148
+  size: 143, 144
+  orig: 150, 150
+  offset: 4, 3
+  index: -1
+effect_tower_field_14
+  rotate: false
+  xy: 438, 439
+  size: 143, 144
+  orig: 150, 150
+  offset: 4, 3
+  index: -1
+effect_tower_field_16
+  rotate: false
+  xy: 292, 149
+  size: 143, 143
+  orig: 150, 150
+  offset: 4, 3
+  index: -1
+effect_tower_field_18
+  rotate: false
+  xy: 437, 153
+  size: 138, 139
+  orig: 150, 150
+  offset: 7, 5
+  index: -1
+effect_tower_field_2
+  rotate: false
+  xy: 148, 439
+  size: 143, 144
+  orig: 150, 150
+  offset: 4, 3
+  index: -1
+effect_tower_field_20
+  rotate: false
+  xy: 292, 4
+  size: 143, 143
+  orig: 150, 150
+  offset: 4, 4
+  index: -1
+effect_tower_field_22
+  rotate: false
+  xy: 440, 294
+  size: 143, 143
+  orig: 150, 150
+  offset: 4, 4
+  index: -1
+effect_tower_field_24
+  rotate: false
+  xy: 294, 294
+  size: 144, 143
+  orig: 150, 150
+  offset: 4, 4
+  index: -1
+effect_tower_field_26
+  rotate: false
+  xy: 2, 439
+  size: 144, 144
+  orig: 150, 150
+  offset: 4, 3
+  index: -1
+effect_tower_field_28
+  rotate: true
+  xy: 147, 2
+  size: 144, 143
+  orig: 150, 150
+  offset: 4, 4
+  index: -1
+effect_tower_field_4
+  rotate: false
+  xy: 2, 148
+  size: 143, 144
+  orig: 150, 150
+  offset: 4, 3
+  index: -1
+effect_tower_field_6
+  rotate: false
+  xy: 293, 439
+  size: 143, 144
+  orig: 150, 150
+  offset: 4, 3
+  index: -1
+effect_tower_field_8
+  rotate: true
+  xy: 148, 294
+  size: 143, 144
+  orig: 150, 150
+  offset: 4, 3
+  index: -1

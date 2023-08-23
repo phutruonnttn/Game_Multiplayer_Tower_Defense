@@ -1,0 +1,62 @@
+
+fx_vip.png
+size: 270,268
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+f_cyan
+  rotate: true
+  xy: 2, 27
+  size: 150, 89
+  orig: 152, 91
+  offset: 1, 1
+  index: -1
+fx_blue
+  rotate: true
+  xy: 171, 102
+  size: 164, 89
+  orig: 164, 91
+  offset: 0, 1
+  index: -1
+fx_flare
+  rotate: true
+  xy: 262, 112
+  size: 154, 6
+  orig: 156, 6
+  offset: 1, 0
+  index: -1
+fx_green
+  rotate: false
+  xy: 2, 179
+  size: 167, 87
+  orig: 169, 89
+  offset: 1, 1
+  index: -1
+fx_red
+  rotate: true
+  xy: 93, 13
+  size: 164, 50
+  orig: 164, 52
+  offset: 0, 1
+  index: -1
+fx_star
+  rotate: true
+  xy: 145, 151
+  size: 26, 21
+  orig: 28, 23
+  offset: 1, 1
+  index: -1
+fx_star2
+  rotate: false
+  xy: 145, 131
+  size: 17, 18
+  orig: 17, 19
+  offset: 0, 1
+  index: -1
+fx_white
+  rotate: false
+  xy: 145, 64
+  size: 123, 36
+  orig: 123, 36
+  offset: 0, 0
+  index: -1

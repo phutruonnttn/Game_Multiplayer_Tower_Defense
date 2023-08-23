@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0746188-eb85-4992-b8a4-a827e1df3e3d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2GyoFJeK1zvsZb42rAdziunyhmz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/TruongNP - ZPS/Desktop/Done_Sinh_Tu_Mon-master/team-2-server",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="model.user" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="bitzero.server.Main" />
+      <module name="team_2_server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0746188-eb85-4992-b8a4-a827e1df3e3d" name="Default Changelist" comment="" />
+      <created>1667370079976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667370079976</updated>
+      <workItem from="1667370082885" duration="6604000" />
+      <workItem from="1667794412986" duration="255000" />
+      <workItem from="1667795794685" duration="3536000" />
+      <workItem from="1667809822061" duration="439000" />
+      <workItem from="1667810348715" duration="2578000" />
+      <workItem from="1667878435195" duration="24500000" />
+      <workItem from="1667930304321" duration="3046000" />
+      <workItem from="1667957448309" duration="30596000" />
+      <workItem from="1668009645173" duration="32996000" />
+      <workItem from="1669023501254" duration="2432000" />
+      <workItem from="1672363490535" duration="11763000" />
+      <workItem from="1672725383212" duration="2257000" />
+      <workItem from="1672729208485" duration="4236000" />
+      <workItem from="1672733493531" duration="5274000" />
+      <workItem from="1672763970022" duration="818000" />
+      <workItem from="1672797027063" duration="7063000" />
+      <workItem from="1672813550631" duration="319000" />
+      <workItem from="1672829986853" duration="168000" />
+      <workItem from="1672889482295" duration="2520000" />
+      <workItem from="1673006549471" duration="330000" />
+      <workItem from="1673007002696" duration="397000" />
+      <workItem from="1673231749362" duration="1474000" />
+      <workItem from="1673327780752" duration="18000" />
+      <workItem from="1673338114449" duration="1785000" />
+      <workItem from="1692765748920" duration="175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/cmd/send/demo/ResponseGetChestInfo.java</url>
+          <line>9</line>
+          <properties class="cmd.send.demo.ResponseGetChestInfo">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

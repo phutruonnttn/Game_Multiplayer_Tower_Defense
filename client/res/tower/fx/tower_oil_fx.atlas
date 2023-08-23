@@ -1,0 +1,664 @@
+
+tower_oil_fx.png
+size: 300,300
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx/fx_oil_02
+  rotate: false
+  xy: 256, 110
+  size: 8, 19
+  orig: 100, 100
+  offset: 46, 46
+  index: -1
+fx/fx_oil_03
+  rotate: false
+  xy: 256, 110
+  size: 8, 19
+  orig: 100, 100
+  offset: 46, 46
+  index: -1
+fx/fx_oil_04
+  rotate: false
+  xy: 103, 11
+  size: 37, 43
+  orig: 100, 100
+  offset: 32, 34
+  index: -1
+fx/fx_oil_05
+  rotate: false
+  xy: 2, 2
+  size: 42, 50
+  orig: 100, 100
+  offset: 30, 31
+  index: -1
+fx/fx_oil_06
+  rotate: true
+  xy: 248, 256
+  size: 42, 50
+  orig: 100, 100
+  offset: 30, 31
+  index: -1
+fx/fx_oil_07
+  rotate: true
+  xy: 46, 4
+  size: 48, 55
+  orig: 100, 100
+  offset: 26, 26
+  index: -1
+fx/fx_oil_08
+  rotate: false
+  xy: 126, 117
+  size: 56, 58
+  orig: 100, 100
+  offset: 21, 23
+  index: -1
+fx/fx_oil_09
+  rotate: false
+  xy: 123, 57
+  size: 56, 58
+  orig: 100, 100
+  offset: 21, 23
+  index: -1
+fx/fx_oil_10
+  rotate: false
+  xy: 64, 56
+  size: 57, 59
+  orig: 100, 100
+  offset: 20, 22
+  index: -1
+fx/fx_oil_11
+  rotate: false
+  xy: 126, 239
+  size: 59, 59
+  orig: 100, 100
+  offset: 19, 21
+  index: -1
+fx/fx_oil_12
+  rotate: false
+  xy: 187, 240
+  size: 59, 58
+  orig: 100, 100
+  offset: 19, 21
+  index: -1
+fx/fx_oil_13
+  rotate: false
+  xy: 2, 54
+  size: 60, 58
+  orig: 100, 100
+  offset: 19, 21
+  index: -1
+fx/fx_oil_14
+  rotate: false
+  xy: 64, 117
+  size: 60, 58
+  orig: 100, 100
+  offset: 19, 21
+  index: -1
+fx/fx_oil_15
+  rotate: true
+  xy: 126, 177
+  size: 60, 58
+  orig: 100, 100
+  offset: 19, 21
+  index: -1
+fx/fx_oil_16
+  rotate: false
+  xy: 64, 177
+  size: 60, 59
+  orig: 100, 100
+  offset: 19, 20
+  index: -1
+fx/fx_oil_17
+  rotate: false
+  xy: 2, 238
+  size: 60, 60
+  orig: 100, 100
+  offset: 19, 20
+  index: -1
+fx/fx_oil_18
+  rotate: false
+  xy: 2, 238
+  size: 60, 60
+  orig: 100, 100
+  offset: 19, 20
+  index: -1
+fx/fx_oil_19
+  rotate: false
+  xy: 2, 176
+  size: 60, 60
+  orig: 100, 100
+  offset: 19, 20
+  index: -1
+fx/fx_oil_20
+  rotate: false
+  xy: 64, 238
+  size: 60, 60
+  orig: 100, 100
+  offset: 19, 20
+  index: -1
+fx/fx_oil_21
+  rotate: false
+  xy: 2, 114
+  size: 60, 60
+  orig: 100, 100
+  offset: 19, 20
+  index: -1
+fx/fx_oil_drop_00
+  rotate: true
+  xy: 239, 126
+  size: 2, 1
+  orig: 50, 50
+  offset: 22, 45
+  index: -1
+fx/fx_oil_drop_01
+  rotate: false
+  xy: 213, 117
+  size: 15, 3
+  orig: 50, 50
+  offset: 16, 44
+  index: -1
+fx/fx_oil_drop_02
+  rotate: true
+  xy: 287, 161
+  size: 16, 3
+  orig: 50, 50
+  offset: 15, 44
+  index: -1
+fx/fx_oil_drop_03
+  rotate: true
+  xy: 294, 211
+  size: 17, 4
+  orig: 50, 50
+  offset: 15, 43
+  index: -1
+fx/fx_oil_drop_04
+  rotate: true
+  xy: 225, 93
+  size: 22, 5
+  orig: 50, 50
+  offset: 15, 42
+  index: -1
+fx/fx_oil_drop_05
+  rotate: true
+  xy: 292, 180
+  size: 23, 6
+  orig: 50, 50
+  offset: 14, 41
+  index: -1
+fx/fx_oil_drop_06
+  rotate: false
+  xy: 103, 2
+  size: 23, 7
+  orig: 50, 50
+  offset: 14, 40
+  index: -1
+fx/fx_oil_drop_07
+  rotate: false
+  xy: 264, 230
+  size: 23, 8
+  orig: 50, 50
+  offset: 14, 39
+  index: -1
+fx/fx_oil_drop_08
+  rotate: true
+  xy: 289, 230
+  size: 24, 9
+  orig: 50, 50
+  offset: 14, 37
+  index: -1
+fx/fx_oil_drop_09
+  rotate: false
+  xy: 213, 174
+  size: 24, 11
+  orig: 50, 50
+  offset: 14, 35
+  index: -1
+fx/fx_oil_drop_10
+  rotate: false
+  xy: 239, 167
+  size: 24, 13
+  orig: 50, 50
+  offset: 14, 33
+  index: -1
+fx/fx_oil_drop_11
+  rotate: true
+  xy: 213, 122
+  size: 24, 15
+  orig: 50, 50
+  offset: 14, 31
+  index: -1
+fx/fx_oil_drop_12
+  rotate: false
+  xy: 183, 2
+  size: 25, 16
+  orig: 50, 50
+  offset: 14, 30
+  index: -1
+fx/fx_oil_drop_13
+  rotate: false
+  xy: 210, 2
+  size: 25, 18
+  orig: 50, 50
+  offset: 14, 28
+  index: -1
+fx/fx_oil_drop_14
+  rotate: false
+  xy: 240, 208
+  size: 25, 20
+  orig: 50, 50
+  offset: 14, 26
+  index: -1
+fx/fx_oil_drop_15
+  rotate: false
+  xy: 181, 57
+  size: 25, 21
+  orig: 50, 50
+  offset: 14, 25
+  index: -1
+fx/fx_oil_drop_16
+  rotate: false
+  xy: 237, 2
+  size: 25, 22
+  orig: 50, 50
+  offset: 14, 24
+  index: -1
+fx/fx_oil_drop_17
+  rotate: false
+  xy: 267, 205
+  size: 25, 23
+  orig: 50, 50
+  offset: 14, 23
+  index: -1
+fx/fx_oil_drop_18
+  rotate: false
+  xy: 186, 183
+  size: 25, 24
+  orig: 50, 50
+  offset: 14, 22
+  index: -1
+fx/fx_oil_drop_19
+  rotate: false
+  xy: 213, 214
+  size: 25, 24
+  orig: 50, 50
+  offset: 14, 22
+  index: -1
+fx/fx_oil_drop_20
+  rotate: false
+  xy: 266, 179
+  size: 24, 24
+  orig: 50, 50
+  offset: 14, 22
+  index: -1
+fx/fx_oil_drop_21
+  rotate: false
+  xy: 212, 148
+  size: 24, 24
+  orig: 50, 50
+  offset: 14, 22
+  index: -1
+fx/fx_oil_drop_22
+  rotate: false
+  xy: 213, 187
+  size: 24, 25
+  orig: 50, 50
+  offset: 14, 21
+  index: -1
+fx/fx_oil_drop_23
+  rotate: true
+  xy: 239, 182
+  size: 24, 25
+  orig: 50, 50
+  offset: 14, 21
+  index: -1
+fx/fx_oil_drop_24
+  rotate: false
+  xy: 209, 57
+  size: 24, 26
+  orig: 50, 50
+  offset: 14, 20
+  index: -1
+fx/fx_oil_drop_25
+  rotate: true
+  xy: 184, 117
+  size: 25, 27
+  orig: 50, 50
+  offset: 14, 19
+  index: -1
+fx/fx_oil_drop_26
+  rotate: false
+  xy: 186, 209
+  size: 25, 28
+  orig: 50, 50
+  offset: 14, 18
+  index: -1
+fx/fx_oil_drop_27
+  rotate: false
+  xy: 184, 144
+  size: 26, 31
+  orig: 50, 50
+  offset: 14, 15
+  index: -1
+fx/fx_oil_drop_28
+  rotate: false
+  xy: 198, 22
+  size: 25, 33
+  orig: 50, 50
+  offset: 15, 13
+  index: -1
+fx/fx_oil_drop_29
+  rotate: false
+  xy: 170, 20
+  size: 26, 35
+  orig: 50, 50
+  offset: 15, 11
+  index: -1
+fx/fx_oil_drop_30
+  rotate: false
+  xy: 181, 80
+  size: 26, 35
+  orig: 50, 50
+  offset: 15, 10
+  index: -1
+fx/fx_oil_drop_31
+  rotate: false
+  xy: 142, 18
+  size: 26, 37
+  orig: 50, 50
+  offset: 15, 8
+  index: -1
+fx/fx_oil_drop_32
+  rotate: true
+  xy: 142, 2
+  size: 14, 39
+  orig: 50, 50
+  offset: 15, 6
+  index: -1
+fx/fx_oil_drop_33
+  rotate: true
+  xy: 248, 240
+  size: 14, 39
+  orig: 50, 50
+  offset: 15, 6
+  index: -1
+fx/fx_oil_drop_34
+  rotate: false
+  xy: 209, 85
+  size: 14, 30
+  orig: 50, 50
+  offset: 15, 5
+  index: -1
+fx/fx_oil_drop_35
+  rotate: false
+  xy: 225, 26
+  size: 14, 29
+  orig: 50, 50
+  offset: 15, 5
+  index: -1
+fx/fx_oil_drop_36
+  rotate: false
+  xy: 254, 131
+  size: 14, 18
+  orig: 50, 50
+  offset: 15, 16
+  index: -1
+fx/fx_oil_drop_37
+  rotate: true
+  xy: 260, 151
+  size: 12, 19
+  orig: 50, 50
+  offset: 15, 14
+  index: -1
+fx/fx_oil_drop_38
+  rotate: false
+  xy: 296, 113
+  size: 2, 13
+  orig: 50, 50
+  offset: 24, 12
+  index: -1
+fx/fx_oil_drop_39
+  rotate: true
+  xy: 292, 137
+  size: 1, 2
+  orig: 50, 50
+  offset: 25, 9
+  index: -1
+fx/fx_oil_up_50
+  rotate: false
+  xy: 232, 96
+  size: 8, 3
+  orig: 50, 50
+  offset: 21, 12
+  index: -1
+fx/fx_oil_up_51
+  rotate: false
+  xy: 232, 96
+  size: 8, 3
+  orig: 50, 50
+  offset: 21, 12
+  index: -1
+fx/fx_oil_up_52
+  rotate: true
+  xy: 292, 140
+  size: 13, 4
+  orig: 50, 50
+  offset: 19, 12
+  index: -1
+fx/fx_oil_up_53
+  rotate: false
+  xy: 242, 100
+  size: 17, 7
+  orig: 50, 50
+  offset: 17, 11
+  index: -1
+fx/fx_oil_up_54
+  rotate: true
+  xy: 266, 109
+  size: 19, 7
+  orig: 50, 50
+  offset: 16, 11
+  index: -1
+fx/fx_oil_up_55
+  rotate: false
+  xy: 241, 230
+  size: 21, 8
+  orig: 50, 50
+  offset: 15, 11
+  index: -1
+fx/fx_oil_up_56
+  rotate: false
+  xy: 241, 230
+  size: 21, 8
+  orig: 50, 50
+  offset: 15, 11
+  index: -1
+fx/fx_oil_up_57
+  rotate: true
+  xy: 232, 101
+  size: 21, 8
+  orig: 50, 50
+  offset: 15, 11
+  index: -1
+fx/fx_oil_up_58
+  rotate: true
+  xy: 230, 124
+  size: 22, 7
+  orig: 50, 50
+  offset: 14, 11
+  index: -1
+fx/fx_oil_up_59
+  rotate: true
+  xy: 283, 137
+  size: 22, 7
+  orig: 50, 50
+  offset: 14, 11
+  index: -1
+fx/fx_oil_up_60
+  rotate: true
+  xy: 292, 155
+  size: 23, 6
+  orig: 50, 50
+  offset: 14, 11
+  index: -1
+fx/fx_oil_up_61
+  rotate: true
+  xy: 292, 155
+  size: 23, 6
+  orig: 50, 50
+  offset: 14, 11
+  index: -1
+fx/fx_oil_up_62
+  rotate: false
+  xy: 186, 177
+  size: 23, 4
+  orig: 50, 50
+  offset: 14, 11
+  index: -1
+fx/fx_oil_up_63
+  rotate: true
+  xy: 225, 85
+  size: 6, 2
+  orig: 50, 50
+  offset: 22, 12
+  index: -1
+fx/fx_oil_up_64
+  rotate: false
+  xy: 257, 96
+  size: 2, 2
+  orig: 50, 50
+  offset: 22, 12
+  index: -1
+fx/fx_oil_up_71
+  rotate: false
+  xy: 281, 107
+  size: 13, 7
+  orig: 50, 50
+  offset: 23, 7
+  index: -1
+fx/fx_oil_up_72
+  rotate: false
+  xy: 283, 128
+  size: 15, 7
+  orig: 50, 50
+  offset: 23, 7
+  index: -1
+fx/fx_oil_up_73
+  rotate: true
+  xy: 270, 130
+  size: 19, 11
+  orig: 50, 50
+  offset: 22, 7
+  index: -1
+fx/fx_oil_up_74
+  rotate: true
+  xy: 242, 109
+  size: 19, 12
+  orig: 50, 50
+  offset: 22, 7
+  index: -1
+fx/fx_oil_up_75
+  rotate: false
+  xy: 265, 165
+  size: 20, 12
+  orig: 50, 50
+  offset: 22, 7
+  index: -1
+fx/fx_oil_up_76
+  rotate: false
+  xy: 238, 152
+  size: 20, 13
+  orig: 50, 50
+  offset: 22, 7
+  index: -1
+fx/fx_oil_up_77
+  rotate: true
+  xy: 239, 130
+  size: 20, 13
+  orig: 50, 50
+  offset: 22, 7
+  index: -1
+fx/fx_oil_up_78
+  rotate: true
+  xy: 281, 116
+  size: 10, 13
+  orig: 50, 50
+  offset: 22, 7
+  index: -1
+fx/fx_oil_up_79
+  rotate: false
+  xy: 275, 115
+  size: 4, 13
+  orig: 50, 50
+  offset: 22, 7
+  index: -1
+fx/fx_oil_up_80
+  rotate: true
+  xy: 242, 95
+  size: 3, 13
+  orig: 50, 50
+  offset: 22, 7
+  index: -1
+fx/fx_oil_up_81
+  rotate: false
+  xy: 261, 95
+  size: 3, 13
+  orig: 50, 50
+  offset: 22, 7
+  index: -1
+fx/fx_oil_up_82
+  rotate: false
+  xy: 261, 95
+  size: 3, 13
+  orig: 50, 50
+  offset: 22, 7
+  index: -1
+fx/fx_oil_up_83
+  rotate: true
+  xy: 128, 6
+  size: 3, 12
+  orig: 50, 50
+  offset: 22, 7
+  index: -1
+fx/fx_oil_up_84
+  rotate: true
+  xy: 128, 2
+  size: 2, 12
+  orig: 50, 50
+  offset: 23, 7
+  index: -1
+fx/fx_oil_up_85
+  rotate: false
+  xy: 296, 100
+  size: 2, 11
+  orig: 50, 50
+  offset: 23, 7
+  index: -1
+fx/fx_oil_up_86
+  rotate: true
+  xy: 225, 22
+  size: 2, 9
+  orig: 50, 50
+  offset: 23, 7
+  index: -1
+fx/fx_oil_up_87
+  rotate: true
+  xy: 225, 22
+  size: 2, 9
+  orig: 50, 50
+  offset: 23, 7
+  index: -1
+fx/fx_oil_up_88
+  rotate: false
+  xy: 229, 85
+  size: 2, 6
+  orig: 50, 50
+  offset: 23, 7
+  index: -1
+fx/fx_oil_up_89
+  rotate: false
+  xy: 281, 161
+  size: 2, 2
+  orig: 50, 50
+  offset: 23, 8
+  index: -1

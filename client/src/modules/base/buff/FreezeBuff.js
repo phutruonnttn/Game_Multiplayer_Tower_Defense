@@ -1,0 +1,1 @@
+let FreezeBuff = MonsterBuff.extend();

@@ -1,0 +1,111 @@
+
+effect_stun.png
+size: 313,311
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+comp_stun_monster_0
+  rotate: false
+  xy: 173, 126
+  size: 85, 59
+  orig: 100, 100
+  offset: 9, 19
+  index: -1
+comp_stun_monster_1
+  rotate: false
+  xy: 184, 249
+  size: 87, 60
+  orig: 100, 100
+  offset: 8, 21
+  index: -1
+comp_stun_monster_10
+  rotate: true
+  xy: 2, 80
+  size: 94, 55
+  orig: 100, 100
+  offset: 5, 21
+  index: -1
+comp_stun_monster_11
+  rotate: true
+  xy: 59, 79
+  size: 95, 52
+  orig: 100, 100
+  offset: 0, 22
+  index: -1
+comp_stun_monster_12
+  rotate: true
+  xy: 260, 93
+  size: 92, 51
+  orig: 100, 100
+  offset: 4, 23
+  index: -1
+comp_stun_monster_13
+  rotate: true
+  xy: 232, 3
+  size: 88, 55
+  orig: 100, 100
+  offset: 8, 20
+  index: -1
+comp_stun_monster_14
+  rotate: true
+  xy: 173, 37
+  size: 87, 57
+  orig: 100, 100
+  offset: 8, 21
+  index: -1
+comp_stun_monster_2
+  rotate: false
+  xy: 93, 189
+  size: 90, 56
+  orig: 100, 100
+  offset: 6, 22
+  index: -1
+comp_stun_monster_3
+  rotate: true
+  xy: 113, 8
+  size: 90, 51
+  orig: 100, 100
+  offset: 8, 23
+  index: -1
+comp_stun_monster_4
+  rotate: false
+  xy: 2, 25
+  size: 92, 52
+  orig: 100, 100
+  offset: 8, 22
+  index: -1
+comp_stun_monster_5
+  rotate: false
+  xy: 185, 187
+  size: 86, 60
+  orig: 100, 100
+  offset: 9, 16
+  index: -1
+comp_stun_monster_6
+  rotate: false
+  xy: 2, 176
+  size: 87, 66
+  orig: 100, 100
+  offset: 8, 11
+  index: -1
+comp_stun_monster_7
+  rotate: false
+  xy: 2, 244
+  size: 89, 65
+  orig: 100, 100
+  offset: 7, 14
+  index: -1
+comp_stun_monster_8
+  rotate: false
+  xy: 93, 247
+  size: 89, 62
+  orig: 100, 100
+  offset: 7, 17
+  index: -1
+comp_stun_monster_9
+  rotate: true
+  xy: 113, 100
+  size: 87, 58
+  orig: 100, 100
+  offset: 8, 19
+  index: -1

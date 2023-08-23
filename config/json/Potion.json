@@ -1,0 +1,73 @@
+{
+  "potion": {
+    "0": {
+      "name": "fireball",
+      "energy": 8,
+      "map": "player",
+      "action": {
+        "type": "instant"
+      },
+      "radius": 1.2,
+      "adjust": {
+        "player": {
+          "type": "damage",
+          "value": 50
+        }
+      },
+      "adjustUseCardLevel": true
+    },
+    "1": {
+      "name": "frozen",
+      "energy": 8,
+      "map": "both",
+      "action": {
+        "type": "instant"
+      },
+      "radius": 1.2,
+      "adjust": {
+        "player": {
+          "type": "targetBuffType",
+          "value": 2
+        },
+        "enemy": {
+          "type": "towerBuffType",
+          "value": 6
+        }
+      }
+    },
+    "2": {
+      "name": "heal",
+      "energy": 12,
+      "map": "enemy",
+      "action": {
+        "type": "field",
+        "durationType": "limited",
+        "duration": 3000,
+        "radius": 2.0
+      },
+      "adjust": {
+        "enemy": {
+          "type": "targetBuffType",
+          "value": 3
+        }
+      }
+    },
+    "3": {
+      "name": "speedUp",
+      "energy": 12,
+      "map": "enemy",
+      "action": {
+        "type": "field",
+        "durationType": "limited",
+        "duration": 3000,
+        "radius": 2.0
+      },
+      "adjust": {
+        "enemy": {
+          "type": "targetBuffType",
+          "value": 4
+        }
+      }
+    }
+  }
+}

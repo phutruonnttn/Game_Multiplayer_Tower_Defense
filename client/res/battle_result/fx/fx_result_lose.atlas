@@ -1,0 +1,286 @@
+
+fx_result_lose.png
+size: 745,745
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Energy_hit02
+  rotate: false
+  xy: 510, 348
+  size: 73, 65
+  orig: 100, 100
+  offset: 12, 17
+  index: -1
+Energy_hit03
+  rotate: false
+  xy: 510, 348
+  size: 73, 65
+  orig: 100, 100
+  offset: 12, 17
+  index: -1
+Energy_hit04
+  rotate: false
+  xy: 594, 84
+  size: 79, 69
+  orig: 100, 100
+  offset: 9, 15
+  index: -1
+Energy_hit05
+  rotate: true
+  xy: 601, 411
+  size: 87, 77
+  orig: 100, 100
+  offset: 5, 11
+  index: -1
+Energy_hit06
+  rotate: false
+  xy: 500, 54
+  size: 92, 82
+  orig: 100, 100
+  offset: 3, 9
+  index: -1
+Energy_hit07
+  rotate: true
+  xy: 529, 246
+  size: 100, 92
+  orig: 100, 100
+  offset: 0, 4
+  index: -1
+Energy_hit08
+  rotate: true
+  xy: 529, 156
+  size: 88, 99
+  orig: 100, 100
+  offset: 5, 0
+  index: -1
+Energy_hit09
+  rotate: true
+  xy: 623, 255
+  size: 100, 74
+  orig: 100, 100
+  offset: 0, 12
+  index: -1
+Energy_hit10
+  rotate: true
+  xy: 679, 563
+  size: 100, 58
+  orig: 100, 100
+  offset: 0, 21
+  index: -1
+Energy_hit11
+  rotate: false
+  xy: 585, 357
+  size: 100, 52
+  orig: 100, 100
+  offset: 0, 23
+  index: -1
+Energy_hit12
+  rotate: false
+  xy: 507, 2
+  size: 100, 50
+  orig: 100, 100
+  offset: 0, 24
+  index: -1
+Energy_hit13
+  rotate: false
+  xy: 326, 2
+  size: 93, 48
+  orig: 100, 100
+  offset: 3, 25
+  index: -1
+Energy_hit14
+  rotate: false
+  xy: 421, 8
+  size: 84, 42
+  orig: 100, 100
+  offset: 8, 28
+  index: -1
+Levels 1 copy
+  rotate: true
+  xy: 407, 52
+  size: 84, 91
+  orig: 85, 91
+  offset: 0, 0
+  index: -1
+arrow_01
+  rotate: false
+  xy: 679, 507
+  size: 51, 54
+  orig: 51, 54
+  offset: 0, 0
+  index: -1
+arrow_01_glow
+  rotate: false
+  xy: 336, 396
+  size: 118, 121
+  orig: 118, 121
+  offset: 0, 0
+  index: -1
+arrow_02
+  rotate: false
+  xy: 680, 472
+  size: 35, 33
+  orig: 35, 33
+  offset: 0, 0
+  index: -1
+arrow_03
+  rotate: false
+  xy: 699, 341
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+arrow_03_glow
+  rotate: true
+  xy: 630, 155
+  size: 98, 89
+  orig: 98, 89
+  offset: 0, 0
+  index: -1
+arrow_point_01
+  rotate: false
+  xy: 717, 492
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+arrow_point_02
+  rotate: true
+  xy: 669, 722
+  size: 9, 8
+  orig: 9, 8
+  offset: 0, 0
+  index: -1
+arrow_point_03
+  rotate: true
+  xy: 669, 733
+  size: 10, 8
+  orig: 10, 8
+  offset: 0, 0
+  index: -1
+arrow_shadow_02
+  rotate: true
+  xy: 2, 2
+  size: 6, 16
+  orig: 6, 16
+  offset: 0, 0
+  index: -1
+banner_lose
+  rotate: false
+  xy: 2, 519
+  size: 483, 151
+  orig: 483, 151
+  offset: 0, 0
+  index: -1
+fencer
+  rotate: false
+  xy: 2, 10
+  size: 322, 97
+  orig: 322, 97
+  offset: 0, 0
+  index: -1
+finger_1
+  rotate: false
+  xy: 675, 82
+  size: 57, 71
+  orig: 57, 71
+  offset: 0, 0
+  index: -1
+finger_2
+  rotate: false
+  xy: 679, 665
+  size: 64, 78
+  orig: 64, 78
+  offset: 0, 0
+  index: -1
+fx_soul
+  rotate: false
+  xy: 2, 343
+  size: 332, 174
+  orig: 332, 174
+  offset: 0, 0
+  index: -1
+hand_lose
+  rotate: false
+  xy: 413, 138
+  size: 112, 90
+  orig: 112, 90
+  offset: 0, 0
+  index: -1
+handle_flag_1
+  rotate: true
+  xy: 243, 116
+  size: 39, 57
+  orig: 39, 57
+  offset: 0, 0
+  index: -1
+handle_flag_2
+  rotate: false
+  xy: 732, 489
+  size: 11, 72
+  orig: 11, 72
+  offset: 0, 0
+  index: -1
+helmet
+  rotate: true
+  xy: 326, 52
+  size: 103, 79
+  orig: 103, 79
+  offset: 0, 0
+  index: -1
+stone_mid
+  rotate: false
+  xy: 2, 109
+  size: 239, 232
+  orig: 239, 232
+  offset: 0, 0
+  index: -1
+stone_side_L
+  rotate: false
+  xy: 487, 500
+  size: 190, 170
+  orig: 190, 170
+  offset: 0, 0
+  index: -1
+stone_side_R
+  rotate: true
+  xy: 243, 157
+  size: 184, 168
+  orig: 184, 168
+  offset: 0, 0
+  index: -1
+sword_L
+  rotate: false
+  xy: 687, 372
+  size: 49, 98
+  orig: 49, 98
+  offset: 0, 0
+  index: -1
+sword_R
+  rotate: true
+  xy: 456, 415
+  size: 83, 143
+  orig: 83, 143
+  offset: 0, 0
+  index: -1
+sword_R_glow
+  rotate: false
+  xy: 413, 230
+  size: 114, 115
+  orig: 114, 115
+  offset: 0, 0
+  index: -1
+temp_bg
+  rotate: false
+  xy: 2, 672
+  size: 665, 71
+  orig: 666, 71
+  offset: 0, 0
+  index: -1
+text_lose
+  rotate: false
+  xy: 336, 347
+  size: 172, 47
+  orig: 172, 47
+  offset: 0, 0
+  index: -1

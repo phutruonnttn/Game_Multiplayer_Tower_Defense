@@ -1,0 +1,40 @@
+{
+  "card": {
+    "2": {
+      "fragments": 5,
+      "gold": 5
+    },
+    "3": {
+      "fragments": 10,
+      "gold": 10
+    },
+    "4": {
+      "fragments": 20,
+      "gold": 20
+    },
+    "5": {
+      "fragments": 50,
+      "gold": 50
+    },
+    "6": {
+      "fragments": 100,
+      "gold": 100
+    },
+    "7": {
+      "fragments": 200,
+      "gold": 200
+    },
+    "8": {
+      "fragments": 300,
+      "gold": 300
+    },
+    "9": {
+      "fragments": 400,
+      "gold": 400
+    },
+    "10": {
+      "fragments": 500,
+      "gold": 500
+    }
+  }
+}

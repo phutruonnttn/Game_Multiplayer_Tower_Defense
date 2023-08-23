@@ -1,0 +1,256 @@
+{
+  "ID": "5401bf91-08cf-4f68-8808-fdc5e56b3340",
+  "Version": "3.10.0.0",
+  "Name": "InfoCard",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 80,
+        "Children": [
+          {
+            "FontSize": 20,
+            "LabelText": "Xương Độn Thổ",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "R": 26,
+              "G": 26,
+              "B": 26
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 568.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 250,
+              "B": 57
+            },
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.3453,
+              "Y": 0.0255
+            },
+            "LeftMargin": 209.5,
+            "RightMargin": 209.5,
+            "TopMargin": 553.5,
+            "BottomMargin": 553.5,
+            "Tag": 81,
+            "ActionTag": -1569353130,
+            "Size": {
+              "X": 221.0,
+              "Y": 29.0
+            },
+            "Name": "name",
+            "ctype": "TextObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "common/common_tooltip_box1.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 15,
+            "Scale9Width": 70,
+            "Scale9Height": 70,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 536.077
+            },
+            "Scale": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4719
+            },
+            "PreSize": {
+              "X": 0.2625,
+              "Y": 0.0396
+            },
+            "LeftMargin": 236.0,
+            "RightMargin": 236.0,
+            "TopMargin": 577.423,
+            "BottomMargin": 513.577,
+            "Tag": 84,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "common/common_tooltip_point1.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 7,
+                "Scale9OriginY": 4,
+                "Scale9Width": 9,
+                "Scale9Height": 7,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 1.0
+                },
+                "Position": {
+                  "X": 84.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.1369,
+                  "Y": 0.3333
+                },
+                "LeftMargin": 72.5,
+                "RightMargin": 72.5,
+                "TopMargin": 45.0,
+                "BottomMargin": -15.0,
+                "Tag": 85,
+                "ActionTag": -1145751136,
+                "Size": {
+                  "X": 23.0,
+                  "Y": 15.0
+                },
+                "Name": "toolTipPoint",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -354335989,
+            "Size": {
+              "X": 168.0,
+              "Y": 45.0
+            },
+            "Name": "toolTipBox",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FontSize": 14,
+            "LabelText": "Lv 10",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 537.9551
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "G": 247,
+              "B": 0
+            },
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4736
+            },
+            "PreSize": {
+              "X": 0.0828,
+              "Y": 0.0185
+            },
+            "LeftMargin": 293.5,
+            "RightMargin": 293.5,
+            "TopMargin": 587.5449,
+            "BottomMargin": 527.4551,
+            "Tag": 86,
+            "ActionTag": -1282766806,
+            "Size": {
+              "X": 53.0,
+              "Y": 21.0
+            },
+            "Name": "level",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "infoCard",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "../common/common_tooltip_box1.png",
+        "../common/common_tooltip_point1.png",
+        "../font/SVN-Supercell Magic.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

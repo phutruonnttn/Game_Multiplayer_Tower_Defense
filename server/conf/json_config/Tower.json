@@ -1,0 +1,206 @@
+{
+  "buildingTime": 1000,
+  "tower": {
+    "0": {
+      "name": "cannon - owl",
+      "archetype": "attack",
+      "targetType": "all",
+      "bulletType": "chasing",
+      "bulletTargetBuffType": -1,
+      "energy": 8,
+      "attackAnimationTime": 594,
+      "shootAnimationTime": 33,
+      "stat": {
+        "1": {
+          "damage": 10.0,
+          "attackSpeed": 600,
+          "range": 1.5,
+          "bulletRadius": 0.0,
+          "bulletSpeed": 50
+        },
+        "2": {
+          "damage": 15.0,
+          "attackSpeed": 500,
+          "range": 1.7,
+          "bulletRadius": 0.0,
+          "bulletSpeed": 50
+        },
+        "3": {
+          "damage": 30.0,
+          "attackSpeed": 400,
+          "range": 2.0,
+          "bulletRadius": 0.0,
+          "bulletSpeed": 50
+        }
+      }
+    },
+    "1": {
+      "name": "wizard - crow",
+      "archetype": "attack",
+      "targetType": "land",
+      "bulletType": "straight",
+      "bulletTargetBuffType": -1,
+      "energy": 12,
+      "attackAnimationTime": 594,
+      "shootAnimationTime": 231,
+      "stat": {
+        "1": {
+          "damage": 5.0,
+          "attackSpeed": 2200,
+          "range": 1.5,
+          "bulletRadius": 1.0,
+          "bulletSpeed": 30
+        },
+        "2": {
+          "damage": 8.0,
+          "attackSpeed": 2000,
+          "range": 1.7,
+          "bulletRadius": 1.0,
+          "bulletSpeed": 30
+        },
+        "3": {
+          "damage": 20.0,
+          "attackSpeed": 1800,
+          "range": 2.0,
+          "bulletRadius": 1.0,
+          "bulletSpeed": 30
+        }
+      }
+    },
+    "2": {
+      "name": "boomerang - frog",
+      "archetype": "attack",
+      "targetType": "all",
+      "bulletType": "boomerang",
+      "bulletTargetBuffType": -1,
+      "energy": 10,
+      "attackAnimationTime": 726,
+      "shootAnimationTime": 231,
+      "stat": {
+        "1": {
+          "damage": 3.0,
+          "attackSpeed": 1500,
+          "range": 2.0,
+          "bulletRadius": 0.5,
+          "bulletSpeed": 30
+        },
+        "2": {
+          "damage": 5.0,
+          "attackSpeed": 1300,
+          "range": 2.3,
+          "bulletRadius": 0.5,
+          "bulletSpeed": 30
+        },
+        "3": {
+          "damage": 8.0,
+          "attackSpeed": 1000,
+          "range": 2.8,
+          "bulletRadius": 0.5,
+          "bulletSpeed": 30
+        }
+      }
+    },
+    "3": {
+      "name": "oilGun - bunny",
+      "archetype": "magic",
+      "targetType": "all",
+      "bulletType": "straight",
+      "bulletTargetBuffType": 0,
+      "energy": 12,
+      "attackAnimationTime": 726,
+      "shootAnimationTime": 297,
+      "stat": {
+        "1": {
+          "damage": 0.0,
+          "attackSpeed": 2000,
+          "range": 1.5,
+          "bulletRadius": 0.6,
+          "bulletSpeed": 40
+        },
+        "2": {
+          "damage": 0.0,
+          "attackSpeed": 1800,
+          "range": 1.6,
+          "bulletRadius": 0.8,
+          "bulletSpeed": 40
+        },
+        "3": {
+          "damage": 0.0,
+          "attackSpeed": 1600,
+          "range": 1.7,
+          "bulletRadius": 1.0,
+          "bulletSpeed": 40
+        }
+      }
+    },
+    "4": {
+      "name": "iceGun - polarBear",
+      "archetype": "magic",
+      "targetType": "land",
+      "bulletType": "chasing",
+      "bulletTargetBuffType": 1,
+      "energy": 10,
+      "attackAnimationTime": 660,
+      "shootAnimationTime": 33,
+      "stat": {
+        "1": {
+          "damage": 0.0,
+          "attackSpeed": 3400,
+          "range": 1.8,
+          "bulletRadius": 0.0,
+          "bulletSpeed": 60
+        },
+        "2": {
+          "damage": 0.0,
+          "attackSpeed": 3200,
+          "range": 2.0,
+          "bulletRadius": 0.0,
+          "bulletSpeed": 60
+        },
+        "3": {
+          "damage": 0.0,
+          "attackSpeed": 3000,
+          "range": 2.2,
+          "bulletRadius": 0.0,
+          "bulletSpeed": 60
+        }
+      }
+    },
+    "5": {
+      "name": "damage - goat",
+      "archetype": "support",
+      "targetType": "aura",
+      "auraTowerBuffType": 3,
+      "energy": 12,
+      "stat": {
+        "1": {
+          "range": 1.2
+        },
+        "2": {
+          "range": 1.8
+        },
+        "3": {
+          "range": 2.5
+        }
+      }
+    },
+    "6": {
+      "name": "attackSpeed - snake",
+      "archetype": "support",
+      "targetType": "aura",
+      "auraTowerBuffType": 4,
+      "energy": 12,
+      "stat": {
+        "1": {
+          "range": 1.2
+        },
+        "2": {
+          "range": 1.8
+        },
+        "3": {
+          "range": 2.5
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+
+as_duoi.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hat sang nho
+  rotate: false
+  xy: 45, 36
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+len2
+  rotate: false
+  xy: 2, 2
+  size: 41, 52
+  orig: 41, 52
+  offset: 0, 0
+  index: -1

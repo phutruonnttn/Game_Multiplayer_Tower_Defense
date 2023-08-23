@@ -1,0 +1,869 @@
+{
+    "skeleton": {
+        "hash": "5fNAsiLh/IY08Hz3i7B3sWRwyOs",
+        "spine": "3.7.94",
+        "width": 200,
+        "height": 200,
+        "images": "./images/",
+        "audio": "E:/Projects/TDF/Tower"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "fx_oil_[02-21]",
+            "parent": "root"
+        },
+        {
+            "name": "fx_oil_drop_[00-39]",
+            "parent": "root",
+            "y": 10,
+            "scaleX": 0.75,
+            "scaleY": 0.75
+        },
+        {
+            "name": "fx_oil_up_[50-89]",
+            "parent": "root",
+            "y": 10,
+            "scaleX": 0.75,
+            "scaleY": 0.75
+        }
+    ],
+    "slots": [
+        {
+            "name": "fx_oil_up_[50-89]",
+            "bone": "fx_oil_up_[50-89]",
+            "attachment": "fx/fx_oil_up_50",
+            "blend": "screen"
+        },
+        {
+            "name": "fx_oil_drop_[00-39]",
+            "bone": "fx_oil_drop_[00-39]",
+            "attachment": "fx/fx_oil_drop_00",
+            "blend": "screen"
+        },
+        {
+            "name": "fx_oil_[02-21]",
+            "bone": "fx_oil_[02-21]",
+            "attachment": "fx/fx_oil_02",
+            "blend": "screen"
+        }
+    ],
+    "skins": {
+        "default": {
+            "fx_oil_[02-21]": {
+                "fx/fx_oil_02": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_03": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_04": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_05": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_06": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_07": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_08": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_09": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_10": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_11": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_12": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_13": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_14": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_15": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_16": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_17": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_18": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_19": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_20": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_oil_21": {
+                    "width": 200,
+                    "height": 200
+                }
+            },
+            "fx_oil_drop_[00-39]": {
+                "fx/fx_oil_drop_00": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_01": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_02": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_03": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_04": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_05": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_06": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_07": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_08": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_09": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_10": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_11": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_12": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_13": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_14": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_15": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_16": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_17": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_18": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_19": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_20": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_21": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_22": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_23": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_24": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_25": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_26": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_27": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_28": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_29": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_30": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_31": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_32": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_33": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_34": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_35": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_36": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_37": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_38": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_drop_39": {
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "fx_oil_up_[50-89]": {
+                "fx/fx_oil_up_50": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_51": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_52": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_53": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_54": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_55": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_56": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_57": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_58": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_59": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_60": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_61": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_62": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_63": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_64": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_71": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_72": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_73": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_74": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_75": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_76": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_77": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_78": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_79": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_80": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_81": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_82": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_83": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_84": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_85": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_86": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_87": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_88": {
+                    "width": 100,
+                    "height": 100
+                },
+                "fx/fx_oil_up_89": {
+                    "width": 100,
+                    "height": 100
+                }
+            }
+        }
+    },
+    "animations": {
+        "hit_target_bullet": {
+            "slots": {
+                "fx_oil_[02-21]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_oil_drop_[00-39]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_oil_drop_00"
+                        },
+                        {
+                            "time": 0.0325,
+                            "name": "fx/fx_oil_drop_01"
+                        },
+                        {
+                            "time": 0.065,
+                            "name": "fx/fx_oil_drop_02"
+                        },
+                        {
+                            "time": 0.0976,
+                            "name": "fx/fx_oil_drop_03"
+                        },
+                        {
+                            "time": 0.1301,
+                            "name": "fx/fx_oil_drop_04"
+                        },
+                        {
+                            "time": 0.1626,
+                            "name": "fx/fx_oil_drop_05"
+                        },
+                        {
+                            "time": 0.1951,
+                            "name": "fx/fx_oil_drop_06"
+                        },
+                        {
+                            "time": 0.2276,
+                            "name": "fx/fx_oil_drop_07"
+                        },
+                        {
+                            "time": 0.2602,
+                            "name": "fx/fx_oil_drop_08"
+                        },
+                        {
+                            "time": 0.2927,
+                            "name": "fx/fx_oil_drop_09"
+                        },
+                        {
+                            "time": 0.3252,
+                            "name": "fx/fx_oil_drop_10"
+                        },
+                        {
+                            "time": 0.3577,
+                            "name": "fx/fx_oil_drop_11"
+                        },
+                        {
+                            "time": 0.3902,
+                            "name": "fx/fx_oil_drop_12"
+                        },
+                        {
+                            "time": 0.4228,
+                            "name": "fx/fx_oil_drop_13"
+                        },
+                        {
+                            "time": 0.4553,
+                            "name": "fx/fx_oil_drop_14"
+                        },
+                        {
+                            "time": 0.4878,
+                            "name": "fx/fx_oil_drop_15"
+                        },
+                        {
+                            "time": 0.5203,
+                            "name": "fx/fx_oil_drop_16"
+                        },
+                        {
+                            "time": 0.5528,
+                            "name": "fx/fx_oil_drop_17"
+                        },
+                        {
+                            "time": 0.5854,
+                            "name": "fx/fx_oil_drop_18"
+                        },
+                        {
+                            "time": 0.6179,
+                            "name": "fx/fx_oil_drop_19"
+                        },
+                        {
+                            "time": 0.6504,
+                            "name": "fx/fx_oil_drop_20"
+                        },
+                        {
+                            "time": 0.6829,
+                            "name": "fx/fx_oil_drop_21"
+                        },
+                        {
+                            "time": 0.7154,
+                            "name": "fx/fx_oil_drop_22"
+                        },
+                        {
+                            "time": 0.748,
+                            "name": "fx/fx_oil_drop_23"
+                        },
+                        {
+                            "time": 0.7805,
+                            "name": "fx/fx_oil_drop_24"
+                        },
+                        {
+                            "time": 0.813,
+                            "name": "fx/fx_oil_drop_25"
+                        },
+                        {
+                            "time": 0.8455,
+                            "name": "fx/fx_oil_drop_26"
+                        },
+                        {
+                            "time": 0.878,
+                            "name": "fx/fx_oil_drop_27"
+                        },
+                        {
+                            "time": 0.9106,
+                            "name": "fx/fx_oil_drop_28"
+                        },
+                        {
+                            "time": 0.9431,
+                            "name": "fx/fx_oil_drop_29"
+                        },
+                        {
+                            "time": 0.9756,
+                            "name": "fx/fx_oil_drop_30"
+                        },
+                        {
+                            "time": 1.0081,
+                            "name": "fx/fx_oil_drop_31"
+                        },
+                        {
+                            "time": 1.0407,
+                            "name": "fx/fx_oil_drop_32"
+                        },
+                        {
+                            "time": 1.0732,
+                            "name": "fx/fx_oil_drop_33"
+                        },
+                        {
+                            "time": 1.1057,
+                            "name": "fx/fx_oil_drop_34"
+                        },
+                        {
+                            "time": 1.1382,
+                            "name": "fx/fx_oil_drop_35"
+                        },
+                        {
+                            "time": 1.1707,
+                            "name": "fx/fx_oil_drop_36"
+                        },
+                        {
+                            "time": 1.2033,
+                            "name": "fx/fx_oil_drop_37"
+                        },
+                        {
+                            "time": 1.2358,
+                            "name": "fx/fx_oil_drop_38"
+                        },
+                        {
+                            "time": 1.2683,
+                            "name": "fx/fx_oil_drop_39"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_oil_up_[50-89]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.5,
+                            "name": "fx/fx_oil_up_51"
+                        },
+                        {
+                            "time": 0.5333,
+                            "name": "fx/fx_oil_up_52"
+                        },
+                        {
+                            "time": 0.5667,
+                            "name": "fx/fx_oil_up_53"
+                        },
+                        {
+                            "time": 0.6,
+                            "name": "fx/fx_oil_up_54"
+                        },
+                        {
+                            "time": 0.6333,
+                            "name": "fx/fx_oil_up_55"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": "fx/fx_oil_up_56"
+                        },
+                        {
+                            "time": 0.7,
+                            "name": "fx/fx_oil_up_57"
+                        },
+                        {
+                            "time": 0.7333,
+                            "name": "fx/fx_oil_up_58"
+                        },
+                        {
+                            "time": 0.7667,
+                            "name": "fx/fx_oil_up_59"
+                        },
+                        {
+                            "time": 0.8,
+                            "name": "fx/fx_oil_up_60"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": "fx/fx_oil_up_62"
+                        },
+                        {
+                            "time": 0.8667,
+                            "name": "fx/fx_oil_up_63"
+                        },
+                        {
+                            "time": 0.9,
+                            "name": "fx/fx_oil_up_64"
+                        },
+                        {
+                            "time": 0.9333,
+                            "name": "fx/fx_oil_up_71"
+                        },
+                        {
+                            "time": 0.9667,
+                            "name": "fx/fx_oil_up_72"
+                        },
+                        {
+                            "time": 1,
+                            "name": "fx/fx_oil_up_73"
+                        },
+                        {
+                            "time": 1.0333,
+                            "name": "fx/fx_oil_up_74"
+                        },
+                        {
+                            "time": 1.0667,
+                            "name": "fx/fx_oil_up_75"
+                        },
+                        {
+                            "time": 1.1,
+                            "name": "fx/fx_oil_up_76"
+                        },
+                        {
+                            "time": 1.1333,
+                            "name": "fx/fx_oil_up_77"
+                        },
+                        {
+                            "time": 1.1667,
+                            "name": "fx/fx_oil_up_78"
+                        },
+                        {
+                            "time": 1.2,
+                            "name": "fx/fx_oil_up_79"
+                        },
+                        {
+                            "time": 1.2333,
+                            "name": "fx/fx_oil_up_80"
+                        },
+                        {
+                            "time": 1.2667,
+                            "name": "fx/fx_oil_up_81"
+                        },
+                        {
+                            "time": 1.3,
+                            "name": "fx/fx_oil_up_82"
+                        },
+                        {
+                            "time": 1.3333,
+                            "name": "fx/fx_oil_up_83"
+                        },
+                        {
+                            "time": 1.3667,
+                            "name": "fx/fx_oil_up_84"
+                        },
+                        {
+                            "time": 1.4,
+                            "name": "fx/fx_oil_up_85"
+                        },
+                        {
+                            "time": 1.4333,
+                            "name": "fx/fx_oil_up_86"
+                        },
+                        {
+                            "time": 1.4667,
+                            "name": "fx/fx_oil_up_87"
+                        },
+                        {
+                            "time": 1.5,
+                            "name": "fx/fx_oil_up_88"
+                        },
+                        {
+                            "time": 1.5333,
+                            "name": "fx/fx_oil_up_89"
+                        },
+                        {
+                            "time": 1.5667,
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "hit_target_eff": {
+            "slots": {
+                "fx_oil_[02-21]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_oil_02"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_oil_03"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_oil_04"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_oil_05"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_oil_06"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_oil_07"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_oil_08"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/fx_oil_09"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/fx_oil_10"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/fx_oil_11"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "fx/fx_oil_12"
+                        },
+                        {
+                            "time": 0.3667,
+                            "name": "fx/fx_oil_13"
+                        },
+                        {
+                            "time": 0.4,
+                            "name": "fx/fx_oil_14"
+                        },
+                        {
+                            "time": 0.4333,
+                            "name": "fx/fx_oil_15"
+                        },
+                        {
+                            "time": 0.4667,
+                            "name": "fx/fx_oil_16"
+                        },
+                        {
+                            "time": 0.5,
+                            "name": "fx/fx_oil_17"
+                        },
+                        {
+                            "time": 0.5333,
+                            "name": "fx/fx_oil_18"
+                        },
+                        {
+                            "time": 0.5667,
+                            "name": "fx/fx_oil_19"
+                        },
+                        {
+                            "time": 0.6,
+                            "name": "fx/fx_oil_20"
+                        },
+                        {
+                            "time": 0.6333,
+                            "name": "fx/fx_oil_21"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_oil_drop_[00-39]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_oil_up_[50-89]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

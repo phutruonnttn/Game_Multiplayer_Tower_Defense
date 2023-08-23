@@ -1,0 +1,139 @@
+
+tower_speed_fx.png
+size: 332,332
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx/fx_sound_wave_02
+  rotate: false
+  xy: 308, 132
+  size: 22, 35
+  orig: 120, 120
+  offset: 49, 43
+  index: -1
+fx/fx_sound_wave_03
+  rotate: false
+  xy: 224, 62
+  size: 29, 40
+  orig: 120, 120
+  offset: 45, 40
+  index: -1
+fx/fx_sound_wave_04
+  rotate: false
+  xy: 59, 4
+  size: 36, 46
+  orig: 120, 120
+  offset: 41, 38
+  index: -1
+fx/fx_sound_wave_05
+  rotate: true
+  xy: 157, 4
+  size: 41, 51
+  orig: 120, 120
+  offset: 39, 37
+  index: -1
+fx/fx_sound_wave_06
+  rotate: true
+  xy: 2, 2
+  size: 48, 55
+  orig: 120, 120
+  offset: 35, 35
+  index: -1
+fx/fx_sound_wave_07
+  rotate: true
+  xy: 97, 4
+  size: 52, 58
+  orig: 120, 120
+  offset: 33, 33
+  index: -1
+fx/fx_sound_wave_08
+  rotate: true
+  xy: 159, 47
+  size: 55, 63
+  orig: 120, 120
+  offset: 32, 30
+  index: -1
+fx/fx_sound_wave_09
+  rotate: true
+  xy: 240, 106
+  size: 61, 66
+  orig: 120, 120
+  offset: 29, 28
+  index: -1
+fx/fx_sound_wave_10
+  rotate: true
+  xy: 167, 104
+  size: 63, 71
+  orig: 120, 120
+  offset: 27, 25
+  index: -1
+fx/fx_sound_wave_11
+  rotate: false
+  xy: 247, 169
+  size: 66, 74
+  orig: 120, 120
+  offset: 27, 24
+  index: -1
+fx/fx_sound_wave_12
+  rotate: true
+  xy: 168, 169
+  size: 72, 77
+  orig: 120, 120
+  offset: 24, 24
+  index: -1
+fx/fx_sound_wave_13
+  rotate: false
+  xy: 84, 58
+  size: 73, 84
+  orig: 120, 120
+  offset: 23, 20
+  index: -1
+fx/fx_sound_wave_14
+  rotate: false
+  xy: 247, 245
+  size: 77, 85
+  orig: 120, 120
+  offset: 20, 20
+  index: -1
+fx/fx_sound_wave_15
+  rotate: false
+  xy: 168, 243
+  size: 77, 87
+  orig: 120, 120
+  offset: 20, 19
+  index: -1
+fx/fx_sound_wave_16
+  rotate: false
+  xy: 86, 149
+  size: 79, 88
+  orig: 120, 120
+  offset: 19, 19
+  index: -1
+fx/fx_sound_wave_17
+  rotate: false
+  xy: 2, 52
+  size: 80, 90
+  orig: 120, 120
+  offset: 18, 18
+  index: -1
+fx/fx_sound_wave_18
+  rotate: false
+  xy: 2, 144
+  size: 82, 91
+  orig: 120, 120
+  offset: 17, 17
+  index: -1
+fx/fx_sound_wave_19
+  rotate: false
+  xy: 86, 239
+  size: 80, 91
+  orig: 120, 120
+  offset: 17, 16
+  index: -1
+fx/fx_sound_wave_20
+  rotate: false
+  xy: 2, 237
+  size: 82, 93
+  orig: 120, 120
+  offset: 18, 16
+  index: -1

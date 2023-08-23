@@ -1,0 +1,3821 @@
+{
+  "ID": "d7a42586-51a5-4dbb-8f3b-8be44927d984",
+  "Version": "3.10.0.0",
+  "Name": "BattleScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 11,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 69,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "map/map_background.png",
+                  "Plist": ""
+                },
+                "Scale9OriginX": 348,
+                "Scale9OriginY": 204,
+                "Scale9Width": 360,
+                "Scale9Height": 212,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 320.0,
+                  "Y": 568.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 12,
+                "ActionTag": -298956189,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 1136.0
+                },
+                "Name": "forestBackground",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_river_0002.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 335,
+                "Scale9OriginY": 47,
+                "Scale9Width": 348,
+                "Scale9Height": 49,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 320.0,
+                  "Y": 531.648
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.468
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 0.1259
+                },
+                "TopMargin": 461.3296,
+                "BottomMargin": 531.648,
+                "Tag": 17,
+                "ActionTag": -39752175,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 143.0224
+                },
+                "Name": "river",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 579117713,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "backgroundGeneral",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "map/map_background_0003.png",
+              "Plist": "plist/battleScene.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 15,
+            "Scale9Width": 603,
+            "Scale9Height": 403,
+            "AnchorPoint": {
+              "ScaleX": 0.5021,
+              "ScaleY": 0.1991
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 193.12
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.17
+            },
+            "PercentHeightEnable": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.9281,
+              "Y": 0.372
+            },
+            "LeftMargin": 21.7526,
+            "RightMargin": 24.2474,
+            "TopMargin": 604.426,
+            "BottomMargin": 108.9819,
+            "Tag": 16,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_background_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 177,
+                "Scale9OriginY": 127,
+                "Scale9Width": 185,
+                "Scale9Height": 131,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 297.0,
+                  "Y": 84.9833
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.2011
+                },
+                "PreSize": {
+                  "X": 0.7937,
+                  "Y": 0.7968
+                },
+                "LeftMargin": 61.28,
+                "RightMargin": 61.28,
+                "TopMargin": 0.8688,
+                "BottomMargin": 84.9833,
+                "Tag": 19,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "battle/UI/ui_grid.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 178,
+                    "Scale9OriginY": 127,
+                    "Scale9Width": 185,
+                    "Scale9Height": 133,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 235.72,
+                      "Y": 168.37
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 21,
+                    "ActionTag": -1726667192,
+                    "Size": {
+                      "X": 471.44,
+                      "Y": 336.74
+                    },
+                    "Name": "grid",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -2013790536,
+                "Size": {
+                  "X": 471.44,
+                  "Y": 336.74
+                },
+                "Name": "playerMap",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_background_0001_for_house.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 25,
+                "Scale9OriginY": 24,
+                "Scale9Width": 28,
+                "Scale9Height": 27,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 531.6,
+                  "Y": 85.0499
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8949,
+                  "Y": 0.2013
+                },
+                "PreSize": {
+                  "X": 0.1134,
+                  "Y": 0.1594
+                },
+                "LeftMargin": 531.6,
+                "RightMargin": -4.95,
+                "TopMargin": 270.1921,
+                "BottomMargin": 85.0499,
+                "Tag": 23,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "battle/single_grid.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 26,
+                    "Scale9OriginY": 26,
+                    "Scale9Width": 27,
+                    "Scale9Height": 27,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 33.675,
+                      "Y": 33.675
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 24,
+                    "ActionTag": 867562933,
+                    "Size": {
+                      "X": 67.35,
+                      "Y": 67.35
+                    },
+                    "Name": "singleGrid",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "map/map_house.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 36,
+                    "Scale9OriginY": 44,
+                    "Scale9Width": 40,
+                    "Scale9Height": 46,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 34.1183,
+                      "Y": 59.9709
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5066,
+                      "Y": 0.8904
+                    },
+                    "PreSize": {
+                      "X": 1.663,
+                      "Y": 1.9896
+                    },
+                    "LeftMargin": -21.8817,
+                    "RightMargin": -22.7683,
+                    "TopMargin": -59.6209,
+                    "BottomMargin": -7.0291,
+                    "Tag": 82,
+                    "ActionTag": 1006161744,
+                    "Size": {
+                      "X": 112.0,
+                      "Y": 134.0
+                    },
+                    "Name": "house",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1967784156,
+                "Size": {
+                  "X": 67.35,
+                  "Y": 67.35
+                },
+                "Name": "cellForHouse",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_background_0001_cell_extend.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 25,
+                "Scale9OriginY": 23,
+                "Scale9Width": 28,
+                "Scale9Height": 25,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 95.0,
+                  "Y": 454.51
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1599,
+                  "Y": 1.0755
+                },
+                "PreSize": {
+                  "X": 0.1134,
+                  "Y": 0.1594
+                },
+                "LeftMargin": 61.325,
+                "RightMargin": 465.325,
+                "TopMargin": -65.593,
+                "BottomMargin": 420.835,
+                "Tag": 16,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "battle/single_grid.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 26,
+                    "Scale9OriginY": 26,
+                    "Scale9Width": 27,
+                    "Scale9Height": 27,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 33.675,
+                      "Y": 33.675
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 17,
+                    "ActionTag": -5272299,
+                    "Size": {
+                      "X": 67.35,
+                      "Y": 67.35
+                    },
+                    "Name": "singleGrid",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 165072789,
+                "Size": {
+                  "X": 67.35,
+                  "Y": 67.35
+                },
+                "Name": "cellExtend",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "battle/battle_item_cell.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 25,
+                "Scale9OriginY": 30,
+                "Scale9Width": 27,
+                "Scale9Height": 31,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 162.24,
+                  "Y": 455.5133
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2731,
+                  "Y": 1.0779
+                },
+                "PreSize": {
+                  "X": 0.1134,
+                  "Y": 0.1594
+                },
+                "LeftMargin": 128.565,
+                "RightMargin": 398.085,
+                "TopMargin": -66.5963,
+                "BottomMargin": 421.8383,
+                "Tag": 19,
+                "ActionTag": 1010997277,
+                "Size": {
+                  "X": 67.35,
+                  "Y": 67.35
+                },
+                "Name": "monsterGate",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 467523444,
+            "Size": {
+              "X": 594.0,
+              "Y": 422.592
+            },
+            "Name": "backgroundPlayerMap",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "map/map_background_0002.png",
+              "Plist": "plist/battleScene.plist"
+            },
+            "Scale9OriginX": 209,
+            "Scale9OriginY": 144,
+            "Scale9Width": 218,
+            "Scale9Height": 149,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 886.08
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.78
+            },
+            "PercentHeightEnable": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 0.9625,
+              "Y": 0.3747
+            },
+            "LeftMargin": 12.0,
+            "RightMargin": 12.0,
+            "TopMargin": 37.0905,
+            "BottomMargin": 673.2504,
+            "Tag": 18,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_background_0000.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 177,
+                "Scale9OriginY": 127,
+                "Scale9Width": 185,
+                "Scale9Height": 131,
+                "AnchorPoint": {
+                  "ScaleX": 0.5
+                },
+                "Position": {
+                  "X": 308.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.7653,
+                  "Y": 0.7911
+                },
+                "LeftMargin": 72.28,
+                "RightMargin": 72.28,
+                "TopMargin": 88.9192,
+                "Tag": 20,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "battle/UI/ui_grid.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 178,
+                    "Scale9OriginY": 127,
+                    "Scale9Width": 185,
+                    "Scale9Height": 133,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 235.72,
+                      "Y": 168.37
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 22,
+                    "ActionTag": 560229882,
+                    "Size": {
+                      "X": 471.44,
+                      "Y": 336.74
+                    },
+                    "Name": "grid",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -780029685,
+                "Size": {
+                  "X": 471.44,
+                  "Y": 336.74
+                },
+                "Name": "opponentMap",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_background_0000_cell_extend.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 25,
+                "Scale9OriginY": 24,
+                "Scale9Width": 38,
+                "Scale9Height": 35,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 5.05,
+                  "Y": 269.3
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0082,
+                  "Y": 0.6327
+                },
+                "PreSize": {
+                  "X": 0.1093,
+                  "Y": 0.1582
+                },
+                "LeftMargin": 5.05,
+                "RightMargin": 543.6,
+                "TopMargin": 89.0092,
+                "BottomMargin": 269.3,
+                "Tag": 20,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "battle/single_grid.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 26,
+                    "Scale9OriginY": 26,
+                    "Scale9Width": 27,
+                    "Scale9Height": 27,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 33.675,
+                      "Y": 33.675
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 21,
+                    "ActionTag": -1913009005,
+                    "Size": {
+                      "X": 67.35,
+                      "Y": 67.35
+                    },
+                    "Name": "singleGrid",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "map/map_house.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 36,
+                    "Scale9OriginY": 44,
+                    "Scale9Width": 40,
+                    "Scale9Height": 46,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 34.5982,
+                      "Y": 56.715
+                    },
+                    "Scale": {
+                      "ScaleX": 0.75,
+                      "ScaleY": 0.75
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5137,
+                      "Y": 0.8421
+                    },
+                    "PreSize": {
+                      "X": 1.663,
+                      "Y": 1.9896
+                    },
+                    "LeftMargin": -21.4018,
+                    "RightMargin": -23.2482,
+                    "TopMargin": -56.365,
+                    "BottomMargin": -10.285,
+                    "Tag": 83,
+                    "ActionTag": -998157317,
+                    "Size": {
+                      "X": 112.0,
+                      "Y": 134.0
+                    },
+                    "Name": "house",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1465242449,
+                "Size": {
+                  "X": 67.35,
+                  "Y": 67.35
+                },
+                "Name": "cellForHouse",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_background_0000_cell_extend.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 25,
+                "Scale9OriginY": 23,
+                "Scale9Width": 38,
+                "Scale9Height": 37,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 510.01,
+                  "Y": -30.06
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8279,
+                  "Y": -0.0706
+                },
+                "PreSize": {
+                  "X": 0.1093,
+                  "Y": 0.1582
+                },
+                "LeftMargin": 476.335,
+                "RightMargin": 72.315,
+                "TopMargin": 422.0442,
+                "BottomMargin": -63.735,
+                "Tag": 23,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "battle/single_grid.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 26,
+                    "Scale9OriginY": 26,
+                    "Scale9Width": 27,
+                    "Scale9Height": 27,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 33.675,
+                      "Y": 33.675
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "Tag": 24,
+                    "ActionTag": 903517379,
+                    "Size": {
+                      "X": 67.35,
+                      "Y": 67.35
+                    },
+                    "Name": "singleGrid",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1769325587,
+                "Size": {
+                  "X": 67.35,
+                  "Y": 67.35
+                },
+                "Name": "cellExtend",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "battle/battle_item_cell.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 25,
+                "Scale9OriginY": 30,
+                "Scale9Width": 27,
+                "Scale9Height": 31,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 442.7383,
+                  "Y": -29.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7187,
+                  "Y": -0.07
+                },
+                "PreSize": {
+                  "X": 0.1093,
+                  "Y": 0.1582
+                },
+                "LeftMargin": 409.0633,
+                "RightMargin": 139.5867,
+                "TopMargin": 421.7842,
+                "BottomMargin": -63.475,
+                "Tag": 25,
+                "ActionTag": 1846252056,
+                "Size": {
+                  "X": 67.35,
+                  "Y": 67.35
+                },
+                "Name": "monsterGate",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -872909282,
+            "Size": {
+              "X": 616.0,
+              "Y": 425.6592
+            },
+            "Name": "backgroundOpponentMap",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 90,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 121.0223,
+                  "Y": 1115.8999
+                },
+                "Scale": {
+                  "ScaleX": 0.91,
+                  "ScaleY": 0.97
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1891,
+                  "Y": 0.9823
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 48.5223,
+                "RightMargin": 446.4777,
+                "TopMargin": -64.8999,
+                "BottomMargin": 1030.8999,
+                "Tag": 34,
+                "ActionTag": -325627491,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 5.057,
+                  "Y": 257.5103
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0079,
+                  "Y": 0.2267
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": -67.443,
+                "RightMargin": 562.443,
+                "TopMargin": 793.4897,
+                "BottomMargin": 172.5103,
+                "Tag": 28,
+                "ActionTag": -1830267284,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_rock_0006.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 17,
+                "Scale9OriginY": 20,
+                "Scale9Width": 18,
+                "Scale9Height": 23,
+                "AnchorPoint": {
+                  "ScaleX": 0.5313,
+                  "ScaleY": 0.4911
+                },
+                "Position": {
+                  "X": 622.4033,
+                  "Y": 886.5146
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9725,
+                  "Y": 0.7804
+                },
+                "PreSize": {
+                  "X": 0.0812,
+                  "Y": 0.0555
+                },
+                "LeftMargin": 594.7757,
+                "RightMargin": -6.7757,
+                "TopMargin": 217.4247,
+                "BottomMargin": 855.5753,
+                "Tag": 87,
+                "ActionTag": -1453203502,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 63.0
+                },
+                "Name": "rock2_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 622.8326,
+                  "Y": 824.88
+                },
+                "Scale": {
+                  "ScaleX": 0.88,
+                  "ScaleY": 0.88
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9732,
+                  "Y": 0.7261
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 550.3326,
+                "RightMargin": -55.3326,
+                "TopMargin": 226.12,
+                "BottomMargin": 739.88,
+                "Tag": 32,
+                "ActionTag": 1323599624,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 501.6569,
+                  "Y": 1190.0386
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7838,
+                  "Y": 1.0476
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 429.1569,
+                "RightMargin": 65.8431,
+                "TopMargin": -139.0386,
+                "BottomMargin": 1105.0386,
+                "Tag": 37,
+                "ActionTag": -346382099,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree_7",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 614.8865,
+                  "Y": 1118.9275
+                },
+                "Scale": {
+                  "ScaleX": 0.72,
+                  "ScaleY": 0.72
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9608,
+                  "Y": 0.985
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 542.3865,
+                "RightMargin": -47.3865,
+                "TopMargin": -67.9275,
+                "BottomMargin": 1033.9275,
+                "Tag": 39,
+                "ActionTag": -1556454208,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree_9",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0003.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 535.8906,
+                  "Y": 1080.6256
+                },
+                "Scale": {
+                  "ScaleX": 0.66,
+                  "ScaleY": 0.66
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8373,
+                  "Y": 0.9513
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 463.3906,
+                "RightMargin": 31.6094,
+                "TopMargin": -29.6256,
+                "BottomMargin": 995.6256,
+                "Tag": 49,
+                "ActionTag": 1271056800,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree1_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0003.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 16.8548,
+                  "Y": 1091.9207
+                },
+                "Scale": {
+                  "ScaleX": 0.75,
+                  "ScaleY": 0.75
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0263,
+                  "Y": 0.9612
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": -55.6452,
+                "RightMargin": 550.6452,
+                "TopMargin": -40.9207,
+                "BottomMargin": 1006.9207,
+                "Tag": 51,
+                "ActionTag": 1163312625,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree1_0_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0003.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -18.53,
+                  "Y": 886.356
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.029,
+                  "Y": 0.7802
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": -91.03,
+                "RightMargin": 586.03,
+                "TopMargin": 164.644,
+                "BottomMargin": 801.356,
+                "Tag": 56,
+                "ActionTag": -1991408207,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree1_0_6",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0003.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 634.1569,
+                  "Y": 728.3899
+                },
+                "Scale": {
+                  "ScaleX": 0.81,
+                  "ScaleY": 0.81
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9909,
+                  "Y": 0.6412
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 561.6569,
+                "RightMargin": -66.6569,
+                "TopMargin": 322.6101,
+                "BottomMargin": 643.3899,
+                "Tag": 57,
+                "ActionTag": 1625507153,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree1_0_7",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0003.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 207.3901,
+                  "Y": 1183.0022
+                },
+                "Scale": {
+                  "ScaleX": 0.82,
+                  "ScaleY": 0.82
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.324,
+                  "Y": 1.0414
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 134.8901,
+                "RightMargin": 360.1099,
+                "TopMargin": -132.0022,
+                "BottomMargin": 1098.0022,
+                "Tag": 58,
+                "ActionTag": -1708049888,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree1_0_8",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0004.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 9.9963,
+                  "Y": 774.7006
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0156,
+                  "Y": 0.682
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": -62.5037,
+                "RightMargin": 557.5037,
+                "TopMargin": 276.2994,
+                "BottomMargin": 689.7006,
+                "Tag": 64,
+                "ActionTag": -1895969045,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree2_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 92,
+                "Scale9OriginY": 74,
+                "Scale9Width": 62,
+                "Scale9Height": 133,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -66.6499,
+                  "Y": 643.9691
+                },
+                "Scale": {
+                  "ScaleX": 1.24,
+                  "ScaleY": 1.24
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.1041,
+                  "Y": 0.5669
+                },
+                "PreSize": {
+                  "X": 0.3844,
+                  "Y": 0.2474
+                },
+                "LeftMargin": -189.6499,
+                "RightMargin": 583.6499,
+                "TopMargin": 351.5309,
+                "BottomMargin": 503.4691,
+                "Tag": 27,
+                "ActionTag": 1679417956,
+                "Size": {
+                  "X": 246.0,
+                  "Y": 281.0
+                },
+                "Name": "mapDecor1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_0002.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 92,
+                "Scale9OriginY": 74,
+                "Scale9Width": 95,
+                "Scale9Height": 79,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 702.363,
+                  "Y": 586.3555
+                },
+                "Scale": {
+                  "ScaleX": 1.1,
+                  "ScaleY": 1.1
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0974,
+                  "Y": 0.5162
+                },
+                "PreSize": {
+                  "X": 0.4359,
+                  "Y": 0.1998
+                },
+                "LeftMargin": 562.863,
+                "RightMargin": -201.863,
+                "TopMargin": 436.1445,
+                "BottomMargin": 472.8555,
+                "Tag": 26,
+                "ActionTag": 166699653,
+                "Size": {
+                  "X": 279.0,
+                  "Y": 227.0
+                },
+                "Name": "mapDecor2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 608.6407,
+                  "Y": 504.6262
+                },
+                "Scale": {
+                  "ScaleX": 0.74,
+                  "ScaleY": 0.74
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.951,
+                  "Y": 0.4442
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 536.1407,
+                "RightMargin": -41.1407,
+                "TopMargin": 546.3738,
+                "BottomMargin": 419.6262,
+                "Tag": 45,
+                "ActionTag": -1245866305,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree_15",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0003.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 612.6747,
+                  "Y": 422.3427
+                },
+                "Scale": {
+                  "ScaleX": 0.79,
+                  "ScaleY": 0.79
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9573,
+                  "Y": 0.3718
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 540.1747,
+                "RightMargin": -45.1747,
+                "TopMargin": 628.6573,
+                "BottomMargin": 337.3427,
+                "Tag": 54,
+                "ActionTag": 1764353701,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree1_0_4",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0004.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 425.7155,
+                  "Y": 1096.3282
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6652,
+                  "Y": 0.9651
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 353.2155,
+                "RightMargin": 141.7845,
+                "TopMargin": -45.3282,
+                "BottomMargin": 1011.3282,
+                "Tag": 71,
+                "ActionTag": -2146100366,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree2_6",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0004.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 617.1836,
+                  "Y": 1011.8647
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9643,
+                  "Y": 0.8907
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 544.6836,
+                "RightMargin": -49.6836,
+                "TopMargin": 39.1353,
+                "BottomMargin": 926.8647,
+                "Tag": 63,
+                "ActionTag": -1333769335,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree2_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 325.2577,
+                  "Y": 1152.7673
+                },
+                "Scale": {
+                  "ScaleX": 0.96,
+                  "ScaleY": 1.0435
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5082,
+                  "Y": 1.0148
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 252.7577,
+                "RightMargin": 242.2423,
+                "TopMargin": -101.7673,
+                "BottomMargin": 1067.7673,
+                "Tag": 33,
+                "ActionTag": -425284958,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0004.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 223.1709,
+                  "Y": 1079.8854
+                },
+                "Scale": {
+                  "ScaleX": 0.87,
+                  "ScaleY": 0.87
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3487,
+                  "Y": 0.9506
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 150.6709,
+                "RightMargin": 344.3291,
+                "TopMargin": -28.8854,
+                "BottomMargin": 994.8854,
+                "Tag": 65,
+                "ActionTag": 1150952140,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree2_2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0004.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 15.4417,
+                  "Y": 472.2527
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0241,
+                  "Y": 0.4157
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": -57.0583,
+                "RightMargin": 552.0583,
+                "TopMargin": 578.7473,
+                "BottomMargin": 387.2527,
+                "Tag": 66,
+                "ActionTag": -1347476791,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree2_3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0004.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 622.3754,
+                  "Y": 326.0491
+                },
+                "Scale": {
+                  "ScaleX": 0.9,
+                  "ScaleY": 0.9
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9725,
+                  "Y": 0.287
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 549.8754,
+                "RightMargin": -54.8754,
+                "TopMargin": 724.9509,
+                "BottomMargin": 241.0491,
+                "Tag": 62,
+                "ActionTag": 544088469,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 674.6455,
+                  "Y": 244.837
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0541,
+                  "Y": 0.2155
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": 602.1455,
+                "RightMargin": -107.1455,
+                "TopMargin": 806.163,
+                "BottomMargin": 159.837,
+                "Tag": 31,
+                "ActionTag": -402245176,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_rock_0003.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 20,
+                "Scale9OriginY": 11,
+                "Scale9Width": 23,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5071,
+                  "ScaleY": 0.4343
+                },
+                "Position": {
+                  "X": 307.5048,
+                  "Y": 1060.8656
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4805,
+                  "Y": 0.9339
+                },
+                "PreSize": {
+                  "X": 0.0984,
+                  "Y": 0.0308
+                },
+                "LeftMargin": 275.5575,
+                "RightMargin": 301.4425,
+                "TopMargin": 55.335,
+                "BottomMargin": 1045.665,
+                "Tag": 79,
+                "ActionTag": 14229739,
+                "Size": {
+                  "X": 63.0,
+                  "Y": 35.0
+                },
+                "Name": "rock5",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_rock_0005.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 9,
+                "Scale9OriginY": 6,
+                "Scale9Width": 12,
+                "Scale9Height": 9,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 352.8359,
+                  "Y": 1055.3047
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5513,
+                  "Y": 0.929
+                },
+                "PreSize": {
+                  "X": 0.0469,
+                  "Y": 0.0185
+                },
+                "LeftMargin": 337.8359,
+                "RightMargin": 272.1641,
+                "TopMargin": 70.1953,
+                "BottomMargin": 1044.8047,
+                "Tag": 77,
+                "ActionTag": 555999028,
+                "Size": {
+                  "X": 30.0,
+                  "Y": 21.0
+                },
+                "Name": "rock3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_rock_0006.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 17,
+                "Scale9OriginY": 20,
+                "Scale9Width": 18,
+                "Scale9Height": 23,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 22.3264,
+                  "Y": 344.3856
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0349,
+                  "Y": 0.3032
+                },
+                "PreSize": {
+                  "X": 0.0812,
+                  "Y": 0.0555
+                },
+                "LeftMargin": -3.6736,
+                "RightMargin": 591.6736,
+                "TopMargin": 760.1144,
+                "BottomMargin": 312.8856,
+                "Tag": 76,
+                "ActionTag": -276539213,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 63.0
+                },
+                "Name": "rock2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_grass_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 10,
+                "Scale9Width": 17,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 30.7842,
+                  "Y": 388.1179
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0481,
+                  "Y": 0.3417
+                },
+                "PreSize": {
+                  "X": 0.0734,
+                  "Y": 0.029
+                },
+                "LeftMargin": 7.2842,
+                "RightMargin": 585.7158,
+                "TopMargin": 731.3821,
+                "BottomMargin": 371.6179,
+                "Tag": 82,
+                "ActionTag": -178085915,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 33.0
+                },
+                "Name": "grass1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_grass_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 10,
+                "Scale9Width": 17,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 575.4183,
+                  "Y": 355.0039
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8991,
+                  "Y": 0.3125
+                },
+                "PreSize": {
+                  "X": 0.0734,
+                  "Y": 0.029
+                },
+                "LeftMargin": 551.9183,
+                "RightMargin": 41.0817,
+                "TopMargin": 764.4961,
+                "BottomMargin": 338.5039,
+                "Tag": 83,
+                "ActionTag": 1533641881,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 33.0
+                },
+                "Name": "grass1_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_grass_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 10,
+                "Scale9Width": 17,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.3232,
+                  "ScaleY": 0.8722
+                },
+                "Position": {
+                  "X": 598.9136,
+                  "Y": 939.277
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9358,
+                  "Y": 0.8268
+                },
+                "PreSize": {
+                  "X": 0.0734,
+                  "Y": 0.029
+                },
+                "LeftMargin": 583.7231,
+                "RightMargin": 9.2769,
+                "TopMargin": 192.5056,
+                "BottomMargin": 910.4944,
+                "Tag": 84,
+                "ActionTag": 1502317862,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 33.0
+                },
+                "Name": "grass1_0_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_grass_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 10,
+                "Scale9Width": 17,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 140.3896,
+                  "Y": 1026.8181
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2194,
+                  "Y": 0.9039
+                },
+                "PreSize": {
+                  "X": 0.0734,
+                  "Y": 0.029
+                },
+                "LeftMargin": 116.8896,
+                "RightMargin": 476.1104,
+                "TopMargin": 92.6819,
+                "BottomMargin": 1010.3181,
+                "Tag": 85,
+                "ActionTag": -354325405,
+                "Size": {
+                  "X": 47.0,
+                  "Y": 33.0
+                },
+                "Name": "grass1_0_0_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_grass_0000.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 22,
+                "Scale9OriginY": 14,
+                "Scale9Width": 24,
+                "Scale9Height": 17,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -14.5924,
+                  "Y": 1019.4989
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0228,
+                  "Y": 0.8974
+                },
+                "PreSize": {
+                  "X": 0.1063,
+                  "Y": 0.0396
+                },
+                "LeftMargin": -48.5924,
+                "RightMargin": 620.5924,
+                "TopMargin": 94.0011,
+                "BottomMargin": 996.9989,
+                "Tag": 86,
+                "ActionTag": -185834393,
+                "Size": {
+                  "X": 68.0,
+                  "Y": 45.0
+                },
+                "Name": "grass2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_tree_0001.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 47,
+                "Scale9OriginY": 56,
+                "Scale9Width": 51,
+                "Scale9Height": 58,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": -37.9053,
+                  "Y": 984.3057
+                },
+                "Scale": {
+                  "ScaleX": 0.87,
+                  "ScaleY": 0.87
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": -0.0592,
+                  "Y": 0.8665
+                },
+                "PreSize": {
+                  "X": 0.2266,
+                  "Y": 0.1496
+                },
+                "LeftMargin": -110.4053,
+                "RightMargin": 605.4053,
+                "TopMargin": 66.6943,
+                "BottomMargin": 899.3057,
+                "Tag": 38,
+                "ActionTag": -1954138490,
+                "Size": {
+                  "X": 145.0,
+                  "Y": 170.0
+                },
+                "Name": "tree_8",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_grass_0004.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 11,
+                "Scale9Width": 31,
+                "Scale9Height": 14,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 264.9353,
+                  "Y": 602.4769
+                },
+                "Scale": {
+                  "ScaleX": 0.67,
+                  "ScaleY": 0.67
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.414,
+                  "Y": 0.5303
+                },
+                "PreSize": {
+                  "X": 0.1359,
+                  "Y": 0.0317
+                },
+                "LeftMargin": 221.4353,
+                "RightMargin": 331.5647,
+                "TopMargin": 515.5231,
+                "BottomMargin": 584.4769,
+                "Tag": 88,
+                "ActionTag": -264246319,
+                "Size": {
+                  "X": 87.0,
+                  "Y": 36.0
+                },
+                "Name": "grass3",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "map/map_decoration_grass_0004.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 11,
+                "Scale9Width": 31,
+                "Scale9Height": 14,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 439.1212,
+                  "Y": 562.3067
+                },
+                "Scale": {
+                  "ScaleX": 0.66,
+                  "ScaleY": 0.66
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6861,
+                  "Y": 0.495
+                },
+                "PreSize": {
+                  "X": 0.1359,
+                  "Y": 0.0317
+                },
+                "LeftMargin": 395.6212,
+                "RightMargin": 157.3788,
+                "TopMargin": 555.6933,
+                "BottomMargin": 544.3067,
+                "Tag": 89,
+                "ActionTag": -1765176660,
+                "Size": {
+                  "X": 87.0,
+                  "Y": 36.0
+                },
+                "Name": "grass3_0",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 393540574,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "decoration",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 67,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "battle/battle_info_box.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 25,
+                "Scale9OriginY": 25,
+                "Scale9Width": 38,
+                "Scale9Height": 38,
+                "AnchorPoint": {
+                  "ScaleX": 0.2143,
+                  "ScaleY": 0.4982
+                },
+                "Position": {
+                  "X": 11.853,
+                  "Y": 636.6588
+                },
+                "Scale": {
+                  "ScaleX": 0.7969,
+                  "ScaleY": 0.7969
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0185,
+                  "Y": 0.5604
+                },
+                "PreSize": {
+                  "X": 0.2469,
+                  "Y": 0.0731
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": -22.0064,
+                "RightMargin": 504.0064,
+                "TopMargin": 457.6918,
+                "BottomMargin": 595.3082,
+                "Tag": 58,
+                "ActionTag": 1622026106,
+                "Size": {
+                  "X": 158.0,
+                  "Y": 83.0
+                },
+                "Alpha": 173,
+                "Name": "countTurnBox",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 1888451073,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "countTurn",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 68,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "battle/battle_info_box.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 29,
+                "Scale9OriginY": 29,
+                "Scale9Width": 30,
+                "Scale9Height": 30,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 640.5026,
+                  "Y": 619.9408
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 1.0008,
+                  "Y": 0.5457
+                },
+                "PreSize": {
+                  "X": 0.2031,
+                  "Y": 0.147
+                },
+                "LeftMargin": 575.5026,
+                "RightMargin": -65.5026,
+                "TopMargin": 432.5592,
+                "BottomMargin": 536.4408,
+                "Tag": 87,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "common/common_icon_house.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 14,
+                    "Scale9OriginY": 19,
+                    "Scale9Width": 15,
+                    "Scale9Height": 21,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 32.5,
+                      "Y": 84.502
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.25,
+                      "Y": 0.506
+                    },
+                    "PreSize": {
+                      "X": 0.3308,
+                      "Y": 0.3533
+                    },
+                    "LeftMargin": 11.0,
+                    "RightMargin": 76.0,
+                    "TopMargin": 52.998,
+                    "BottomMargin": 55.002,
+                    "Tag": 66,
+                    "ActionTag": 2051174088,
+                    "Size": {
+                      "X": 43.0,
+                      "Y": 59.0
+                    },
+                    "Name": "iconHouse",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 1778048693,
+                "Size": {
+                  "X": 130.0,
+                  "Y": 167.0
+                },
+                "Name": "remainingHPBox",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -40310299,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "remainingHP",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 85,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "battle/battle_info_box.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 25,
+                "Scale9OriginY": 25,
+                "Scale9Width": 38,
+                "Scale9Height": 38,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 557.1077,
+                  "Y": 1102.276
+                },
+                "Scale": {
+                  "ScaleX": 0.7969,
+                  "ScaleY": 0.7969
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8705,
+                  "Y": 0.9703
+                },
+                "PreSize": {
+                  "X": 0.2531,
+                  "Y": 0.0431
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 476.1077,
+                "RightMargin": 1.8923,
+                "TopMargin": 9.224,
+                "BottomMargin": 1077.776,
+                "Tag": 86,
+                "ActionTag": -79540837,
+                "Size": {
+                  "X": 162.0,
+                  "Y": 49.0
+                },
+                "Alpha": 173,
+                "Name": "numberOfTrophyBox",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "common/common_icon_trophy.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 35,
+                "Scale9OriginY": 34,
+                "Scale9Width": 38,
+                "Scale9Height": 37,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 488.5105,
+                  "Y": 1102.8833
+                },
+                "Scale": {
+                  "ScaleX": 0.41,
+                  "ScaleY": 0.41
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7633,
+                  "Y": 0.9708
+                },
+                "PreSize": {
+                  "X": 0.1688,
+                  "Y": 0.0924
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 434.5105,
+                "RightMargin": 97.4895,
+                "TopMargin": -19.3833,
+                "BottomMargin": 1050.3833,
+                "Tag": 105,
+                "ActionTag": -200267125,
+                "Size": {
+                  "X": 108.0,
+                  "Y": 105.0
+                },
+                "Name": "iconTrophy",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": 61113962,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "numberOfTrophy",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 106,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "battle/battle_info_box.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 25,
+                "Scale9OriginY": 25,
+                "Scale9Width": 38,
+                "Scale9Height": 38,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 44.7868,
+                  "Y": 1101.78
+                },
+                "Scale": {
+                  "ScaleX": 0.7969,
+                  "ScaleY": 0.7969
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.07,
+                  "Y": 0.9699
+                },
+                "PreSize": {
+                  "X": 0.4922,
+                  "Y": 0.0511
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 44.7868,
+                "RightMargin": 280.2132,
+                "TopMargin": 5.22,
+                "BottomMargin": 1072.78,
+                "Tag": 107,
+                "ActionTag": -249741004,
+                "Size": {
+                  "X": 315.0,
+                  "Y": 58.0
+                },
+                "Alpha": 173,
+                "Name": "userNameBox",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "common/common_avatar.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 12,
+                "Scale9OriginY": 12,
+                "Scale9Width": 13,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 40.5577,
+                  "Y": 1101.0238
+                },
+                "Scale": {
+                  "ScaleX": 1.15,
+                  "ScaleY": 1.15
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0634,
+                  "Y": 0.9692
+                },
+                "PreSize": {
+                  "X": 0.0578,
+                  "Y": 0.0326
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 22.0577,
+                "RightMargin": 580.9423,
+                "TopMargin": 16.4762,
+                "BottomMargin": 1082.5238,
+                "Tag": 111,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "common/common_avatar_border.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 12,
+                    "Scale9OriginY": 12,
+                    "Scale9Width": 111,
+                    "Scale9Height": 122,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 18.5,
+                      "Y": 18.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.16,
+                      "Y": 1.16
+                    },
+                    "LeftMargin": -2.96,
+                    "RightMargin": -2.96,
+                    "TopMargin": -2.96,
+                    "BottomMargin": -2.96,
+                    "Tag": 112,
+                    "ActionTag": -1093584457,
+                    "Size": {
+                      "X": 42.92,
+                      "Y": 42.92
+                    },
+                    "Name": "avatarBorder",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -406545879,
+                "Size": {
+                  "X": 37.0,
+                  "Y": 37.0
+                },
+                "Name": "avatar",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1048686148,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "userName",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 10,
+            "ButtonText": "Gợi ý",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "TextColor": {},
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "common/common_btn_blue.png",
+              "Plist": "plist/battleScene.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 164,
+            "Scale9Height": 89,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": 598.7,
+              "Y": 447.21
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "RotationSkewX": -90.0,
+            "RotationSkewY": -90.0,
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.9355,
+              "Y": 0.3937
+            },
+            "PreSize": {
+              "X": 0.1344,
+              "Y": 0.0458
+            },
+            "LeftMargin": 598.7,
+            "RightMargin": -44.7,
+            "TopMargin": 688.79,
+            "BottomMargin": 395.21,
+            "Tag": 79,
+            "ActionTag": 406835896,
+            "Size": {
+              "X": 86.0,
+              "Y": 52.0
+            },
+            "Name": "btnSuggestionPath",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 80,
+            "Children": [
+              {
+                "FontSize": 16,
+                "LabelText": "20",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 587.45,
+                  "Y": 229.574
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 34,
+                  "G": 118,
+                  "B": 232
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.9179,
+                  "Y": 0.2021
+                },
+                "PreSize": {
+                  "X": 0.0484,
+                  "Y": 0.0211
+                },
+                "LeftMargin": 571.95,
+                "RightMargin": 37.05,
+                "TopMargin": 894.426,
+                "BottomMargin": 217.574,
+                "Tag": 81,
+                "ActionTag": -928428839,
+                "Size": {
+                  "X": 31.0,
+                  "Y": 24.0
+                },
+                "Name": "txtPlayerHPHouse",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 16,
+                "LabelText": "20",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 51.2024,
+                  "Y": 966.9927
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 242,
+                  "G": 61,
+                  "B": 65
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.08,
+                  "Y": 0.8512
+                },
+                "PreSize": {
+                  "X": 0.0484,
+                  "Y": 0.0211
+                },
+                "LeftMargin": 35.7024,
+                "RightMargin": 573.2976,
+                "TopMargin": 157.0073,
+                "BottomMargin": 954.9927,
+                "Tag": 82,
+                "ActionTag": 578841459,
+                "Size": {
+                  "X": 31.0,
+                  "Y": 24.0
+                },
+                "Name": "txtOpponentHPHouse",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 24,
+                "LabelText": "3/25",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 47.0643,
+                  "Y": 626.655
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0735,
+                  "Y": 0.5516
+                },
+                "PreSize": {
+                  "X": 0.1219,
+                  "Y": 0.0308
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 8.0643,
+                "RightMargin": 553.9357,
+                "TopMargin": 491.845,
+                "BottomMargin": 609.155,
+                "Tag": 83,
+                "ActionTag": 1682668195,
+                "Size": {
+                  "X": 78.0,
+                  "Y": 35.0
+                },
+                "Name": "txtCount",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 16,
+                "LabelText": "Lượt:",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 40.0267,
+                  "Y": 653.8228
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 173,
+                  "G": 194,
+                  "B": 228
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0625,
+                  "Y": 0.5755
+                },
+                "PreSize": {
+                  "X": 0.0984,
+                  "Y": 0.0211
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 8.5267,
+                "RightMargin": 568.4733,
+                "TopMargin": 470.1772,
+                "BottomMargin": 641.8228,
+                "Tag": 84,
+                "ActionTag": 903320530,
+                "Size": {
+                  "X": 63.0,
+                  "Y": 24.0
+                },
+                "Name": "txtTurn",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "20",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 607.232,
+                  "Y": 567.1368
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 34,
+                  "G": 118,
+                  "B": 232
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.9488,
+                  "Y": 0.4992
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.0326
+                },
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 583.232,
+                "RightMargin": 8.768,
+                "TopMargin": 550.3632,
+                "BottomMargin": 548.6368,
+                "Tag": 85,
+                "ActionTag": -1177354901,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 37.0
+                },
+                "Name": "txtSidePlayerHP",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 26,
+                "LabelText": "20",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 608.576,
+                  "Y": 676.944
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 242,
+                  "G": 61,
+                  "B": 65
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.9509,
+                  "Y": 0.5959
+                },
+                "PreSize": {
+                  "X": 0.075,
+                  "Y": 0.0326
+                },
+                "VerticalEdge": "BottomEdge",
+                "LeftMargin": 584.576,
+                "RightMargin": 7.424,
+                "TopMargin": 440.556,
+                "BottomMargin": 658.444,
+                "Tag": 86,
+                "ActionTag": 1023786453,
+                "Size": {
+                  "X": 48.0,
+                  "Y": 37.0
+                },
+                "Name": "txtSideOpponentHP",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 22,
+                "LabelText": "93.774",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 563.7534,
+                  "Y": 1103.9962
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.8809,
+                  "Y": 0.9718
+                },
+                "PreSize": {
+                  "X": 0.1625,
+                  "Y": 0.0282
+                },
+                "HorizontalEdge": "RightEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 511.7534,
+                "RightMargin": 24.2466,
+                "TopMargin": 16.0038,
+                "BottomMargin": 1087.9962,
+                "Tag": 87,
+                "ActionTag": -430671550,
+                "Size": {
+                  "X": 104.0,
+                  "Y": 32.0
+                },
+                "Name": "txtNumberOfTrophy",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "USER_9999999",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 174.1405,
+                  "Y": 1102.8942
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2721,
+                  "Y": 0.9709
+                },
+                "PreSize": {
+                  "X": 0.325,
+                  "Y": 0.0255
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 70.1405,
+                "RightMargin": 361.8595,
+                "TopMargin": 18.6058,
+                "BottomMargin": 1088.3942,
+                "Tag": 88,
+                "ActionTag": -819182372,
+                "Size": {
+                  "X": 208.0,
+                  "Y": 29.0
+                },
+                "Name": "txtOpponentName",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 778890912,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "panelText",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../font/SVN-Supercell Magic.ttf",
+        "../map/map_background.png",
+        "../plist/battleScene.plist",
+        "../plist/battleScene.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

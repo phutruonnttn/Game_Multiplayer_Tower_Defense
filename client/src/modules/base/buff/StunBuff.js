@@ -1,0 +1,1 @@
+let StunBuff = MonsterBuff.extend();

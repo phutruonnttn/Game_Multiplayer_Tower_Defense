@@ -1,0 +1,69 @@
+
+fx_heal.png
+size: 131,130
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effects/effect_trail_01
+  rotate: false
+  xy: 68, 48
+  size: 20, 36
+  orig: 20, 80
+  offset: 0, 1
+  index: -1
+effects/effect_trail_02
+  rotate: true
+  xy: 60, 108
+  size: 20, 69
+  orig: 20, 80
+  offset: 0, 9
+  index: -1
+effects/effect_trail_03
+  rotate: false
+  xy: 2, 2
+  size: 20, 70
+  orig: 20, 80
+  offset: 0, 10
+  index: -1
+effects/effect_trail_04
+  rotate: false
+  xy: 24, 9
+  size: 20, 63
+  orig: 20, 80
+  offset: 0, 17
+  index: -1
+effects/effect_trail_05
+  rotate: true
+  xy: 60, 86
+  size: 20, 62
+  orig: 20, 80
+  offset: 0, 18
+  index: -1
+effects/effect_trail_06
+  rotate: false
+  xy: 46, 24
+  size: 20, 48
+  orig: 20, 80
+  offset: 0, 32
+  index: -1
+effects/effect_trail_07
+  rotate: false
+  xy: 90, 57
+  size: 20, 27
+  orig: 20, 80
+  offset: 0, 53
+  index: -1
+effects/effect_trail_08
+  rotate: false
+  xy: 68, 20
+  size: 19, 26
+  orig: 20, 80
+  offset: 0, 54
+  index: -1
+effects/heal_icon
+  rotate: false
+  xy: 2, 74
+  size: 56, 54
+  orig: 70, 75
+  offset: 8, 11
+  index: -1

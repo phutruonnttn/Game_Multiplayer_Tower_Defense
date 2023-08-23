@@ -1,0 +1,1396 @@
+{
+    "skeleton": {
+        "hash": "Q+WWo+F7aYEWkDJjrcqSfQBpPt4",
+        "spine": "3.7.94",
+        "width": 240,
+        "height": 240,
+        "images": "./images/",
+        "audio": "E:/Projects/TDF/JOE/fx_tower_wizard"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "effect_explorsive_[30-52]",
+            "parent": "root",
+            "scaleX": 2,
+            "scaleY": 2
+        },
+        {
+            "name": "fx_charge",
+            "parent": "root",
+            "x": -8.46,
+            "y": 17.91
+        },
+        {
+            "name": "fx_charge_[00-06]",
+            "parent": "fx_charge",
+            "x": -0.04,
+            "y": -0.41
+        }
+    ],
+    "slots": [
+        {
+            "name": "effect_explorsive_[30-52]",
+            "bone": "effect_explorsive_[30-52]",
+            "attachment": "fx/effect_explorsive_30",
+            "blend": "additive"
+        },
+        {
+            "name": "fx_charge_[00-06]",
+            "bone": "fx_charge_[00-06]",
+            "attachment": "fx/fx_charge_00",
+            "blend": "additive"
+        }
+    ],
+    "skins": {
+        "default": {
+            "effect_explorsive_[30-52]": {
+                "fx/effect_explorsive_30": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_31": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_32": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_33": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_34": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_35": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_36": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_37": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_38": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_39": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_40": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_41": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_42": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_43": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_44": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_45": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_46": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_47": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_48": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_49": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_50": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_51": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                },
+                "fx/effect_explorsive_52": {
+                    "x": 1,
+                    "y": 20.5,
+                    "width": 120,
+                    "height": 120
+                }
+            },
+            "fx_charge_[00-06]": {
+                "fx/fx_charge_00": {
+                    "width": 82,
+                    "height": 82
+                },
+                "fx/fx_charge_01": {
+                    "width": 82,
+                    "height": 82
+                },
+                "fx/fx_charge_02": {
+                    "width": 82,
+                    "height": 82
+                },
+                "fx/fx_charge_03": {
+                    "width": 82,
+                    "height": 82
+                },
+                "fx/fx_charge_04": {
+                    "width": 82,
+                    "height": 82
+                },
+                "fx/fx_charge_05": {
+                    "width": 82,
+                    "height": 82
+                },
+                "fx/fx_charge_06": {
+                    "width": 82,
+                    "height": 82
+                }
+            }
+        }
+    },
+    "animations": {
+        "attack_1": {
+            "slots": {
+                "effect_explorsive_[30-52]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_charge_[00-06]": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_charge_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_charge_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_charge_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_charge_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_charge_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_charge_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_charge_06"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_charge_[00-06]": {
+                    "rotate": [
+                        {
+                            "time": 0.0667,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -9.39,
+                            "y": 8.24,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": -9.39,
+                            "y": 8.24
+                        },
+                        {
+                            "time": 0.1,
+                            "x": -2.91,
+                            "y": -10.5
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 2.95,
+                            "y": -26.26
+                        }
+                    ]
+                },
+                "fx_charge": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_2": {
+            "slots": {
+                "effect_explorsive_[30-52]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_charge_[00-06]": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_charge_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_charge_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_charge_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_charge_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_charge_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_charge_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_charge_06"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_charge_[00-06]": {
+                    "rotate": [
+                        {
+                            "time": 0.0667,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -2.77,
+                            "y": 4.87,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": -2.77,
+                            "y": 4.87
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 10.62,
+                            "y": -10.5
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 23.26,
+                            "y": -26.26
+                        }
+                    ]
+                },
+                "fx_charge": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_3": {
+            "slots": {
+                "effect_explorsive_[30-52]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_charge_[00-06]": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_charge_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_charge_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_charge_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_charge_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_charge_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_charge_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_charge_06"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_charge_[00-06]": {
+                    "rotate": [
+                        {
+                            "time": 0.0667,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 6.63,
+                            "y": 1.86,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 6.63,
+                            "y": 1.86
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 24.54,
+                            "y": -7.49
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 38.67,
+                            "y": -18.36
+                        }
+                    ]
+                },
+                "fx_charge": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_4": {
+            "slots": {
+                "effect_explorsive_[30-52]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_charge_[00-06]": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_charge_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_charge_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_charge_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_charge_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_charge_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_charge_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_charge_06"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_charge_[00-06]": {
+                    "rotate": [
+                        {
+                            "time": 0.0667,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 14.53,
+                            "y": 3.36,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 14.53,
+                            "y": 3.36
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 36.57,
+                            "y": -1.1
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 49.2,
+                            "y": -9.34
+                        }
+                    ]
+                },
+                "fx_charge": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_5": {
+            "slots": {
+                "effect_explorsive_[30-52]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_charge_[00-06]": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_charge_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_charge_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_charge_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_charge_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_charge_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_charge_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_charge_06"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_charge_[00-06]": {
+                    "rotate": [
+                        {
+                            "time": 0.0667,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 22.05,
+                            "y": 5.62,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 22.05,
+                            "y": 5.62
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 42.58,
+                            "y": 8.3
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 53.71,
+                            "y": 2.32
+                        }
+                    ]
+                },
+                "fx_charge": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_6": {
+            "slots": {
+                "effect_explorsive_[30-52]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_charge_[00-06]": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_charge_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_charge_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_charge_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_charge_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_charge_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_charge_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_charge_06"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_charge_[00-06]": {
+                    "rotate": [
+                        {
+                            "time": 0.0667,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 28.06,
+                            "y": 9.38,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 28.06,
+                            "y": 9.38
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 44.84,
+                            "y": 15.07
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 51.46,
+                            "y": 14.35
+                        }
+                    ]
+                },
+                "fx_charge": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_7": {
+            "slots": {
+                "effect_explorsive_[30-52]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_charge_[00-06]": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_charge_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_charge_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_charge_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_charge_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_charge_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_charge_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_charge_06"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_charge_[00-06]": {
+                    "rotate": [
+                        {
+                            "time": 0.0667,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 31.07,
+                            "y": 16.52,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 31.07,
+                            "y": 16.52
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 40.33,
+                            "y": 24.84
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 43.56,
+                            "y": 24.5
+                        }
+                    ]
+                },
+                "fx_charge": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_8": {
+            "slots": {
+                "effect_explorsive_[30-52]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_charge_[00-06]": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_charge_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_charge_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_charge_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_charge_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_charge_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_charge_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_charge_06"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_charge_[00-06]": {
+                    "rotate": [
+                        {
+                            "time": 0.0667,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 28.82,
+                            "y": 21.41,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 28.82,
+                            "y": 21.41
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 32.43,
+                            "y": 31.99
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 30.4,
+                            "y": 32.78
+                        }
+                    ]
+                },
+                "fx_charge": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_9": {
+            "slots": {
+                "effect_explorsive_[30-52]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_charge_[00-06]": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_charge_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_charge_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_charge_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_charge_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_charge_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_charge_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_charge_06"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_charge_[00-06]": {
+                    "rotate": [
+                        {
+                            "time": 0.0667,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 28.82,
+                            "y": 21.41
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 24.68,
+                            "y": 27.43
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 20.4,
+                            "y": 37.25
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 12.73,
+                            "y": 34.28
+                        }
+                    ]
+                },
+                "fx_charge": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "hit_target_eff": {
+            "slots": {
+                "effect_explorsive_[30-52]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/effect_explorsive_31"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/effect_explorsive_32"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/effect_explorsive_33"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/effect_explorsive_34"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/effect_explorsive_35"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/effect_explorsive_36"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/effect_explorsive_37"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/effect_explorsive_38"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/effect_explorsive_39"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "fx/effect_explorsive_40"
+                        },
+                        {
+                            "time": 0.3667,
+                            "name": "fx/effect_explorsive_41"
+                        },
+                        {
+                            "time": 0.4,
+                            "name": "fx/effect_explorsive_42"
+                        },
+                        {
+                            "time": 0.4333,
+                            "name": "fx/effect_explorsive_43"
+                        },
+                        {
+                            "time": 0.4667,
+                            "name": "fx/effect_explorsive_44"
+                        },
+                        {
+                            "time": 0.5,
+                            "name": "fx/effect_explorsive_45"
+                        },
+                        {
+                            "time": 0.5333,
+                            "name": "fx/effect_explorsive_46"
+                        },
+                        {
+                            "time": 0.5667,
+                            "name": "fx/effect_explorsive_47"
+                        },
+                        {
+                            "time": 0.6,
+                            "name": "fx/effect_explorsive_48"
+                        },
+                        {
+                            "time": 0.6333,
+                            "name": "fx/effect_explorsive_49"
+                        },
+                        {
+                            "time": 0.6667,
+                            "name": "fx/effect_explorsive_50"
+                        },
+                        {
+                            "time": 0.7,
+                            "name": "fx/effect_explorsive_51"
+                        },
+                        {
+                            "time": 0.7333,
+                            "name": "fx/effect_explorsive_52"
+                        },
+                        {
+                            "time": 0.7667,
+                            "name": null
+                        }
+                    ]
+                },
+                "fx_charge_[00-06]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

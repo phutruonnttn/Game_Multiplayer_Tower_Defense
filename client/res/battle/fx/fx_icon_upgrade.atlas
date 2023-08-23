@@ -1,0 +1,13 @@
+
+fx_icon_upgrade.png
+size: 35,33
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow
+  rotate: false
+  xy: 2, 2
+  size: 31, 29
+  orig: 31, 29
+  offset: 0, 0
+  index: -1

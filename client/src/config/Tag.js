@@ -1,0 +1,11 @@
+var TAG = TAG || {};
+
+// Tag monster: start 1000
+TAG.EFFECT_DECREASE_HP_MONSTER = 1000
+TAG.EFFECT_DECREASE_HP_FADE_MONSTER = 1001
+
+// Tag effect: start 2000
+TAG.TAG_BUY_GAIN_GOLD = 2000
+
+// Tag error: start 3000
+TAG.TAG_ERROR_NOT_ENOUGH_G = 3000

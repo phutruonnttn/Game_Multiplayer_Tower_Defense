@@ -1,0 +1,191 @@
+{
+  "radius": {
+    "1": {
+      "value": 0.8,
+      "increasePerRank": 0.2
+    },
+    "2": {
+      "value": 0.2,
+      "increasePerRank": 0.05
+    },
+    "3": {
+      "value": 0.6,
+      "increasePerRank": 0.4
+    }
+  },
+  "potion": {
+    "0": {
+      "name": "fireball",
+      "energy": 8,
+      "map": "player",
+      "action": {
+        "type": "instant"
+      },
+      "radiusType": 1,
+      "statPerLevel": {
+        "damage": {
+          "1": 50,
+          "2": 55,
+          "3": 61,
+          "4": 67,
+          "5": 73,
+          "6": 81,
+          "7": 90,
+          "8": 101,
+          "9": 113,
+          "10": 127
+        }
+      }
+    },
+    "1": {
+      "name": "frozen",
+      "energy": 8,
+      "map": "both",
+      "action": {
+        "type": "instant"
+      },
+      "radiusType": 1,
+      "statPerLevel": {
+        "damagePercent": {
+          "1": 10,
+          "2": 11,
+          "3": 12,
+          "4": 13,
+          "5": 15,
+          "6": 16,
+          "7": 18,
+          "8": 20,
+          "9": 23,
+          "10": 25
+        }
+      },
+      "duration": 2000,
+      "adjust": {
+        "player": {
+          "type": "targetBuffType",
+          "value": 2
+        },
+        "enemy": {
+          "type": "towerBuffType",
+          "value": 6
+        }
+      }
+    },
+    "2": {
+      "name": "heal",
+      "energy": 12,
+      "map": "enemy",
+      "action": {
+        "type": "field",
+        "durationType": "limited"
+      },
+      "duration": 3000,
+      "radiusType": 1,
+      "statPerLevel": {
+        "healthUp": {
+          "1": 2,
+          "2": 2,
+          "3": 2,
+          "4": 2,
+          "5": 2,
+          "6": 2,
+          "7": 2,
+          "8": 2,
+          "9": 2,
+          "10": 2
+        }
+      },
+      "healDelay": 100,
+      "adjust": {
+        "enemy": {
+          "type": "targetBuffType",
+          "value": 3
+        }
+      }
+    },
+    "3": {
+      "name": "speedUp",
+      "energy": 12,
+      "map": "enemy",
+      "action": {
+        "type": "field",
+        "durationType": "limited"
+      },
+      "radiusType": 1,
+      "statPerLevel": {
+        "duration": {
+          "1": 1500,
+          "2": 1800,
+          "3": 2100,
+          "4": 2400,
+          "5": 2700,
+          "6": 3000,
+          "7": 3300,
+          "8": 3600,
+          "9": 3900,
+          "10": 4200
+        }
+      },
+      "adjust": {
+        "enemy": {
+          "type": "targetBuffType",
+          "value": 4
+        }
+      }
+    },
+    "4": {
+      "name": "pushBack",
+      "energy": 6,
+      "map": "player",
+      "action": {
+        "type": "field",
+        "durationType": "unlimited"
+      },
+      "radiusType": 2,
+      "statPerLevel": {
+        "damage": {
+          "1": 20,
+          "2": 22,
+          "3": 24,
+          "4": 27,
+          "5": 29,
+          "6": 32,
+          "7": 36,
+          "8": 40,
+          "9": 45,
+          "10": 51
+        }
+      }
+    },
+    "5": {
+      "name": "damageUp",
+      "energy": 12,
+      "map": "player",
+      "action": {
+        "type": "field",
+        "durationType": "limited"
+      },
+      "statPerLevel": {
+        "duration": {
+          "1": 1500,
+          "2": 1800,
+          "3": 2100,
+          "4": 2400,
+          "5": 2700,
+          "6": 3000,
+          "7": 3300,
+          "8": 3600,
+          "9": 3900,
+          "10": 4200
+        }
+      },
+      "radiusType": 2,
+      "adjust": {
+        "player": {
+          "type": "towerBuffType",
+          "value": 7
+        }
+      }
+    }
+  }
+}

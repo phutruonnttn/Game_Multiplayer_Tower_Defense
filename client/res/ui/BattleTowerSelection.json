@@ -1,0 +1,869 @@
+{
+  "ID": "9b0e1d33-75d7-4bfc-bc08-f155e636f600",
+  "Version": "3.10.0.0",
+  "Name": "BattleTowerSelection",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 155,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "battle/UI/ui_circle_transparent.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -86.0,
+            "RightMargin": -86.0,
+            "TopMargin": -86.0,
+            "BottomMargin": -86.0,
+            "Tag": 159,
+            "ActionTag": 878374354,
+            "Size": {
+              "X": 172.0,
+              "Y": 172.0
+            },
+            "Name": "ui_circle_transparent",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "battle/UI/ui_circle_frame_transparent.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -79.5,
+            "RightMargin": -79.5,
+            "TopMargin": -79.0,
+            "BottomMargin": -79.0,
+            "Tag": 160,
+            "ActionTag": -1855628260,
+            "Size": {
+              "X": 159.0,
+              "Y": 158.0
+            },
+            "Name": "ui_circle_frame_transparent",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "battle/UI/ui_circle_frame.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -89.0,
+            "RightMargin": -89.0,
+            "TopMargin": -89.0,
+            "BottomMargin": -89.0,
+            "Tag": 161,
+            "ActionTag": 836400738,
+            "Size": {
+              "X": 178.0,
+              "Y": 178.0
+            },
+            "Name": "ui_circle_frame",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "battle/battle_btn_destroy.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 76,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 0.8753,
+              "Y": -83.5361
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -52.1247,
+            "RightMargin": -53.8753,
+            "TopMargin": 65.5361,
+            "BottomMargin": -101.5361,
+            "Tag": 171,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 14,
+                "LabelText": "Hủy +",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 5.0,
+                  "Y": 19.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0472,
+                  "Y": 0.55
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.6,
+                  "Y": 0.75
+                },
+                "LeftMargin": 5.0,
+                "RightMargin": 37.4,
+                "TopMargin": 2.7,
+                "BottomMargin": 6.3,
+                "Tag": 176,
+                "ActionTag": -1179298032,
+                "Size": {
+                  "X": 63.6,
+                  "Y": 27.0
+                },
+                "Name": "txtDestroy",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "common/common_icon_energy.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 68.5369,
+                  "Y": 19.8
+                },
+                "Scale": {
+                  "ScaleX": 0.25,
+                  "ScaleY": 0.25
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.6466,
+                  "Y": 0.55
+                },
+                "PreSize": {
+                  "X": 0.7075,
+                  "Y": 2.3611
+                },
+                "LeftMargin": 31.0369,
+                "RightMargin": -0.0369,
+                "TopMargin": -26.3,
+                "BottomMargin": -22.7,
+                "Tag": 177,
+                "ActionTag": 1244821086,
+                "Size": {
+                  "X": 75.0,
+                  "Y": 85.0
+                },
+                "Name": "sprIcon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 14,
+                "LabelText": "22",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 89.7162,
+                  "Y": 19.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.8464,
+                  "Y": 0.55
+                },
+                "PercentHeightEnable": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 0.2508,
+                  "Y": 0.75
+                },
+                "LeftMargin": 76.4251,
+                "RightMargin": 2.9928,
+                "TopMargin": 2.7,
+                "BottomMargin": 6.3,
+                "Tag": 178,
+                "ActionTag": 1560857745,
+                "Size": {
+                  "X": 26.5821,
+                  "Y": 27.0
+                },
+                "Name": "txtCost",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1837519622,
+            "Size": {
+              "X": 106.0,
+              "Y": 36.0
+            },
+            "Name": "btnDestroy",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "Button",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "battle/UI/ui_target_icon.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 38,
+            "Scale9Height": 47,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -83.3929,
+              "Y": -31.8963
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -117.3929,
+            "RightMargin": 49.3929,
+            "TopMargin": -2.6037,
+            "BottomMargin": -66.3963,
+            "Tag": 174,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "battle/UI/ui_target_furthest.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 34.0,
+                  "Y": 34.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7941,
+                  "Y": 0.5507
+                },
+                "LeftMargin": 7.0,
+                "RightMargin": 7.0,
+                "TopMargin": 15.5,
+                "BottomMargin": 15.5,
+                "Tag": 164,
+                "ActionTag": 97451927,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 38.0
+                },
+                "Name": "ui_target_furthest",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 2073270831,
+            "Size": {
+              "X": 68.0,
+              "Y": 69.0
+            },
+            "Name": "btnTargetFurthest",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "Button",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "battle/UI/ui_target_icon.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 38,
+            "Scale9Height": 47,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": -65.59,
+              "Y": 53.8593
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -99.59,
+            "RightMargin": 31.59,
+            "TopMargin": -88.3593,
+            "BottomMargin": 19.3593,
+            "Tag": 175,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "battle/UI/ui_target_nearest.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 34.0,
+                  "Y": 34.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7941,
+                  "Y": 0.5652
+                },
+                "LeftMargin": 7.0,
+                "RightMargin": 7.0,
+                "TopMargin": 15.0,
+                "BottomMargin": 15.0,
+                "Tag": 166,
+                "ActionTag": -995545127,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 39.0
+                },
+                "Name": "ui_target_nearest",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1312023438,
+            "Size": {
+              "X": 68.0,
+              "Y": 69.0
+            },
+            "Name": "btnTargetNearest",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "Button",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "battle/UI/ui_target_icon.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 38,
+            "Scale9Height": 47,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 50.5255,
+              "Y": 72.5112
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 16.5255,
+            "RightMargin": -84.5255,
+            "TopMargin": -107.0112,
+            "BottomMargin": 38.0112,
+            "Tag": 172,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "battle/UI/ui_target_full_HP.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 34.0,
+                  "Y": 34.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7353,
+                  "Y": 0.6522
+                },
+                "LeftMargin": 9.0,
+                "RightMargin": 9.0,
+                "TopMargin": 12.0,
+                "BottomMargin": 12.0,
+                "Tag": 163,
+                "ActionTag": 43073184,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 45.0
+                },
+                "Name": "ui_target_full_HP",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 787946157,
+            "Size": {
+              "X": 68.0,
+              "Y": 69.0
+            },
+            "Name": "btnTargetFullHp",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "Button",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "Normal",
+              "Path": "battle/UI/ui_target_icon.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 38,
+            "Scale9Height": 47,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 79.6774,
+              "Y": -33.9542
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 45.6774,
+            "RightMargin": -113.6774,
+            "TopMargin": -0.5458,
+            "BottomMargin": -68.4542,
+            "Tag": 173,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "battle/UI/ui_target_low_HP.png",
+                  "Plist": ""
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 34.0,
+                  "Y": 34.5
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.7353,
+                  "Y": 0.6522
+                },
+                "LeftMargin": 9.0,
+                "RightMargin": 9.0,
+                "TopMargin": 12.0,
+                "BottomMargin": 12.0,
+                "Tag": 165,
+                "ActionTag": 1912032811,
+                "Size": {
+                  "X": 50.0,
+                  "Y": 45.0
+                },
+                "Name": "ui_target_low_HP",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -1089650269,
+            "Size": {
+              "X": 68.0,
+              "Y": 69.0
+            },
+            "Name": "btnTargetLowHp",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "nodeTowerOption",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../battle/battle_btn_destroy.png",
+        "../battle/UI/ui_circle_frame.png",
+        "../battle/UI/ui_circle_frame_transparent.png",
+        "../battle/UI/ui_circle_transparent.png",
+        "../battle/UI/ui_target_full_HP.png",
+        "../battle/UI/ui_target_furthest.png",
+        "../battle/UI/ui_target_icon.png",
+        "../battle/UI/ui_target_low_HP.png",
+        "../battle/UI/ui_target_nearest.png",
+        "../common/common_icon_energy.png",
+        "../font/SVN-Supercell Magic.ttf"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

@@ -1,0 +1,111 @@
+{
+  "abilities": {
+    "0": {
+      "triggerType": 3,
+      "dataKey": 0
+    },
+    "1": {
+      "triggerType": 2,
+      "dataKey": 0
+    },
+    "2": {
+      "triggerType": 2,
+      "dataKey": 1
+    },
+    "3": {
+      "triggerType": 0,
+      "dataKey": 0
+    },
+    "4": {
+      "triggerType": 1,
+      "dataKey": 0
+    },
+    "5": {
+      "triggerType": 2,
+      "dataKey": 2
+    }
+  },
+  "triggerType" : {
+    "0": {
+      "name": "onHit",
+      "data": {
+        "0": {
+          "name": "icemanAbility",
+          "activate": {
+            "chance": 0.1
+          },
+          "adjust": {
+            "getHitTower": true,
+            "towerBuffType": 5
+          }
+        }
+      }
+    },
+    "1": {
+      "name": "dead",
+      "data": {
+        "0": {
+          "name": "golemAbility",
+          "adjust": {
+            "minionMonsterType": 10,
+            "numberMinions": 5
+          }
+        }
+      }
+    },
+    "2": {
+      "name": "periodic",
+      "data": {
+        "0": {
+          "name": "satyrAbility",
+          "activate": {
+            "delay": 1000
+          },
+          "adjust": {
+            "getMonstersRadius": 2,
+            "getMonstersExcludeSelf": true,
+            "minAdjustTargets": 1,
+            "healHpByHpPercentage": 3
+          }
+        },
+        "1": {
+          "name": "desertKingAbility",
+          "activate": {
+            "delay": 0
+          },
+          "adjust": {
+            "getMonstersRadius": 3,
+            "getMonstersExcludeSelf": true,
+            "targetBuffType": 5
+          }
+        },
+        "2": {
+          "name": "demonTreeAbility",
+          "activate": {
+            "delay": 2000
+          },
+          "adjust": {
+            "limitMonsterType": 12,
+            "numberLimitMonsters": 5,
+            "minionMonsterType": 12,
+            "numberMinions": 1
+          }
+        }
+      }
+    },
+    "3": {
+      "name": "lostHp",
+      "data": {
+        "0": {
+          "name": "ninjaAbility",
+          "activate": {
+            "lostHpRatio": 0.1
+          },
+          "adjust": {
+            "targetBuffType": 6
+          }
+        }
+      }
+    }
+  }
+}

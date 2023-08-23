@@ -1,0 +1,611 @@
+{
+  "ID": "5a626219-30ae-4fa6-b732-d15377397594",
+  "Version": "3.10.0.0",
+  "Name": "BattleCard",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 141,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "battle/battle_card_box.png",
+              "Plist": "plist/Card.plist"
+            },
+            "Scale9OriginX": 35,
+            "Scale9OriginY": 47,
+            "Scale9Width": 38,
+            "Scale9Height": 49,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 0.95,
+              "ScaleY": 0.95
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.1688,
+              "Y": 0.1259
+            },
+            "RightMargin": 532.0,
+            "TopMargin": 993.0,
+            "Tag": 143,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 40.04
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.28
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "TopMargin": -40.04,
+                "BottomMargin": 40.04,
+                "Tag": 151,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "card/card_background_4.png",
+                      "Plist": "plist/Card.plist"
+                    },
+                    "Scale9OriginX": 38,
+                    "Scale9OriginY": 54,
+                    "Scale9Width": 42,
+                    "Scale9Height": 56,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 54.0,
+                      "Y": 71.5
+                    },
+                    "Scale": {
+                      "ScaleX": 0.88,
+                      "ScaleY": 0.88
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "Tag": 145,
+                    "ActionTag": 402746786,
+                    "Size": {
+                      "X": 108.0,
+                      "Y": 143.0
+                    },
+                    "Name": "cardBackground",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "card/card_tower_wizard.png",
+                      "Plist": "plist/Card.plist"
+                    },
+                    "Scale9OriginX": 38,
+                    "Scale9OriginY": 54,
+                    "Scale9Width": 42,
+                    "Scale9Height": 56,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 54.0,
+                      "Y": 71.5
+                    },
+                    "Scale": {
+                      "ScaleX": 0.79,
+                      "ScaleY": 0.79
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "Tag": 147,
+                    "ActionTag": 1151854873,
+                    "Size": {
+                      "X": 108.0,
+                      "Y": 143.0
+                    },
+                    "Name": "cardImage",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "card/card_border_1.png",
+                      "Plist": "plist/Card.plist"
+                    },
+                    "Scale9OriginX": 45,
+                    "Scale9OriginY": 61,
+                    "Scale9Width": 48,
+                    "Scale9Height": 64,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 54.0,
+                      "Y": 71.5
+                    },
+                    "Scale": {
+                      "ScaleX": 0.96,
+                      "ScaleY": 0.96
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.0,
+                      "Y": 1.0
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BothEdge",
+                    "Tag": 146,
+                    "ActionTag": 766987950,
+                    "Size": {
+                      "X": 108.0,
+                      "Y": 143.0
+                    },
+                    "Name": "cardBorder",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "common/common_icon_energy.png",
+                      "Plist": "plist/Card.plist"
+                    },
+                    "Scale9OriginX": 24,
+                    "Scale9OriginY": 28,
+                    "Scale9Width": 27,
+                    "Scale9Height": 29,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 54.0,
+                      "Y": 16.1018
+                    },
+                    "Scale": {
+                      "ScaleX": 0.44,
+                      "ScaleY": 0.44
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1126
+                    },
+                    "PreSize": {
+                      "X": 0.6944,
+                      "Y": 0.5944
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BottomEdge",
+                    "LeftMargin": 16.5,
+                    "RightMargin": 16.5,
+                    "TopMargin": 84.3982,
+                    "BottomMargin": -26.3982,
+                    "Tag": 149,
+                    "ActionTag": -223408679,
+                    "Size": {
+                      "X": 75.0,
+                      "Y": 85.0
+                    },
+                    "Name": "energyIcon",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 19,
+                    "LabelText": "3",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/SVN-Supercell Magic.ttf",
+                      "Plist": ""
+                    },
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineSize": 2,
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowOffsetX": 0.0,
+                    "ShadowOffsetY": -2.0,
+                    "ShadowEnabled": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 54.0,
+                      "Y": 16.1018
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.1126
+                    },
+                    "PreSize": {
+                      "X": 0.1852,
+                      "Y": 0.2098
+                    },
+                    "HorizontalEdge": "BothEdge",
+                    "VerticalEdge": "BottomEdge",
+                    "LeftMargin": 44.0,
+                    "RightMargin": 44.0,
+                    "TopMargin": 111.8982,
+                    "BottomMargin": 1.1018,
+                    "Tag": 152,
+                    "ActionTag": -509908358,
+                    "Size": {
+                      "X": 20.0,
+                      "Y": 30.0
+                    },
+                    "Name": "lblEnergy",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": 367111326,
+                "Size": {
+                  "X": 108.0,
+                  "Y": 143.0
+                },
+                "Name": "btnCard",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "battle/battle_btn_destroy.png",
+                  "Plist": "plist/Card.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 76,
+                "Scale9Height": 14,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 0.9815,
+                  "Y": 0.2517
+                },
+                "RightMargin": 2.0,
+                "TopMargin": 107.0,
+                "Tag": 50,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "common/common_icon_energy.png",
+                      "Plist": "plist/Card.plist"
+                    },
+                    "Scale9OriginX": 24,
+                    "Scale9OriginY": 28,
+                    "Scale9Width": 27,
+                    "Scale9Height": 29,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 71.4053,
+                      "Y": 19.3476
+                    },
+                    "Scale": {
+                      "ScaleX": 0.21,
+                      "ScaleY": 0.21
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.6736,
+                      "Y": 0.5374
+                    },
+                    "PreSize": {
+                      "X": 0.7075,
+                      "Y": 2.3611
+                    },
+                    "HorizontalEdge": "LeftEdge",
+                    "VerticalEdge": "BottomEdge",
+                    "LeftMargin": 33.9053,
+                    "RightMargin": -2.9053,
+                    "TopMargin": -25.8476,
+                    "BottomMargin": -23.1524,
+                    "Tag": 51,
+                    "ActionTag": 1718710346,
+                    "Size": {
+                      "X": 75.0,
+                      "Y": 85.0
+                    },
+                    "Name": "energyIcon",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FontSize": 12,
+                    "LabelText": "HỦY +",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/SVN-Supercell Magic.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 34.8484,
+                      "Y": 19.5073
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.3288,
+                      "Y": 0.5419
+                    },
+                    "PreSize": {
+                      "X": 0.4717,
+                      "Y": 0.5
+                    },
+                    "HorizontalEdge": "LeftEdge",
+                    "VerticalEdge": "BottomEdge",
+                    "LeftMargin": 9.8484,
+                    "RightMargin": 46.1516,
+                    "TopMargin": 7.4927,
+                    "BottomMargin": 10.5073,
+                    "Tag": 52,
+                    "ActionTag": 1789651637,
+                    "Size": {
+                      "X": 50.0,
+                      "Y": 18.0
+                    },
+                    "Name": "textCancel",
+                    "ctype": "TextObjectData"
+                  },
+                  {
+                    "FontSize": 16,
+                    "LabelText": "5",
+                    "FontResource": {
+                      "Type": "Normal",
+                      "Path": "font/SVN-Supercell Magic.ttf",
+                      "Plist": ""
+                    },
+                    "OutlineColor": {
+                      "R": 0,
+                      "G": 0,
+                      "B": 0
+                    },
+                    "OutlineEnabled": true,
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 87.3049,
+                      "Y": 19.7864
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8236,
+                      "Y": 0.5496
+                    },
+                    "PreSize": {
+                      "X": 0.1604,
+                      "Y": 0.6667
+                    },
+                    "HorizontalEdge": "LeftEdge",
+                    "VerticalEdge": "BottomEdge",
+                    "LeftMargin": 78.8049,
+                    "RightMargin": 10.1951,
+                    "TopMargin": 4.2136,
+                    "BottomMargin": 7.7864,
+                    "Tag": 53,
+                    "ActionTag": 1188176496,
+                    "Size": {
+                      "X": 17.0,
+                      "Y": 24.0
+                    },
+                    "Name": "lblCost",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1165322048,
+                "Size": {
+                  "X": 106.0,
+                  "Y": 36.0
+                },
+                "Name": "btnDestroy",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1664203531,
+            "Size": {
+              "X": 108.0,
+              "Y": 143.0
+            },
+            "Name": "cardBox",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../font/SVN-Supercell Magic.ttf",
+        "../plist/Card.plist",
+        "../plist/Card.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

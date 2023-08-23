@@ -1,0 +1,20 @@
+
+fx_boss_sand_king.png
+size: 262,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Wind
+  rotate: false
+  xy: 2, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+images/Wind_2
+  rotate: false
+  xy: 132, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

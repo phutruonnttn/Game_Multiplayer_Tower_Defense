@@ -1,0 +1,20 @@
+
+fx_boss_demon_tree.png
+size: 256,142
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle
+  rotate: false
+  xy: 143, 29
+  size: 111, 111
+  orig: 120, 120
+  offset: 5, 5
+  index: -1
+circle_speed
+  rotate: false
+  xy: 2, 2
+  size: 139, 138
+  orig: 140, 140
+  offset: 0, 1
+  index: -1

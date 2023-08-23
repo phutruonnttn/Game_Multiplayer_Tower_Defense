@@ -1,0 +1,1746 @@
+{
+  "ID": "7e8bc3af-eeeb-4ae2-ae45-6c20fd7dbeb4",
+  "Version": "3.10.0.0",
+  "Name": "BattleResult",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 192,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "battle/battle_info_box.png",
+              "Plist": "plist/battleScene.plist"
+            },
+            "Scale9OriginX": 29,
+            "Scale9OriginY": 29,
+            "Scale9Width": 30,
+            "Scale9Height": 30,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 568.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.2,
+              "Y": 1.2
+            },
+            "LeftMargin": -64.0,
+            "RightMargin": -64.0,
+            "TopMargin": -113.6001,
+            "BottomMargin": -113.6,
+            "Tag": 197,
+            "ActionTag": 1242810238,
+            "Size": {
+              "X": 768.0,
+              "Y": 1363.2001
+            },
+            "Alpha": 189,
+            "Name": "transparentBackground",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 214,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "common/common_icon_star_small.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 9,
+                "Scale9Width": 11,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 404.63,
+                  "Y": 774.0167
+                },
+                "Scale": {
+                  "ScaleX": 1.22,
+                  "ScaleY": 1.22
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6322,
+                  "Y": 0.6814
+                },
+                "PreSize": {
+                  "X": 0.0484,
+                  "Y": 0.0246
+                },
+                "LeftMargin": 389.13,
+                "RightMargin": 219.87,
+                "TopMargin": 347.9833,
+                "BottomMargin": 760.0167,
+                "Tag": 201,
+                "ActionTag": -2049304079,
+                "Size": {
+                  "X": 31.0,
+                  "Y": 28.0
+                },
+                "Name": "isonStar2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "battle_result/battle_result_health_box.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 11,
+                "Scale9Width": 29,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 163.4681,
+                  "Y": 718.0611
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2554,
+                  "Y": 0.6321
+                },
+                "PreSize": {
+                  "X": 0.1906,
+                  "Y": 0.0308
+                },
+                "LeftMargin": 102.4681,
+                "RightMargin": 415.5319,
+                "TopMargin": 400.4389,
+                "BottomMargin": 700.5611,
+                "Tag": 207,
+                "ActionTag": -631309610,
+                "Size": {
+                  "X": 122.0,
+                  "Y": 35.0
+                },
+                "Name": "trophyBox1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "battle_result/battle_result_health_box.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 11,
+                "Scale9Width": 29,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 498.546,
+                  "Y": 717.876
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.779,
+                  "Y": 0.6319
+                },
+                "PreSize": {
+                  "X": 0.1906,
+                  "Y": 0.0308
+                },
+                "LeftMargin": 437.546,
+                "RightMargin": 80.454,
+                "TopMargin": 400.624,
+                "BottomMargin": 700.376,
+                "Tag": 209,
+                "ActionTag": -479456828,
+                "Size": {
+                  "X": 122.0,
+                  "Y": 35.0
+                },
+                "Name": "trophyBox2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "common/common_icon_trophy.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 35,
+                "Scale9OriginY": 34,
+                "Scale9Width": 38,
+                "Scale9Height": 37,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 98.645,
+                  "Y": 718.5244
+                },
+                "Scale": {
+                  "ScaleX": 0.35,
+                  "ScaleY": 0.35
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1541,
+                  "Y": 0.6325
+                },
+                "PreSize": {
+                  "X": 0.1688,
+                  "Y": 0.0924
+                },
+                "LeftMargin": 44.645,
+                "RightMargin": 487.355,
+                "TopMargin": 364.9756,
+                "BottomMargin": 666.0244,
+                "Tag": 203,
+                "ActionTag": 2134569270,
+                "Size": {
+                  "X": 108.0,
+                  "Y": 105.0
+                },
+                "Name": "iconTrophy1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "common/common_icon_trophy.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 35,
+                "Scale9OriginY": 34,
+                "Scale9Width": 38,
+                "Scale9Height": 37,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 434.7322,
+                  "Y": 717.0277
+                },
+                "Scale": {
+                  "ScaleX": 0.35,
+                  "ScaleY": 0.35
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6793,
+                  "Y": 0.6312
+                },
+                "PreSize": {
+                  "X": 0.1688,
+                  "Y": 0.0924
+                },
+                "LeftMargin": 380.7322,
+                "RightMargin": 151.2678,
+                "TopMargin": 366.4723,
+                "BottomMargin": 664.5277,
+                "Tag": 204,
+                "ActionTag": -198453307,
+                "Size": {
+                  "X": 108.0,
+                  "Y": 105.0
+                },
+                "Name": "iconTrophy2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "battle_result/battle_result_health_box.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 11,
+                "Scale9Width": 29,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 157.885,
+                  "Y": 488.96
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2467,
+                  "Y": 0.4304
+                },
+                "PreSize": {
+                  "X": 0.1531,
+                  "Y": 0.0414
+                },
+                "LeftMargin": 108.885,
+                "RightMargin": 433.115,
+                "TopMargin": 623.54,
+                "BottomMargin": 465.46,
+                "Tag": 210,
+                "ActionTag": 1253843084,
+                "Size": {
+                  "X": 98.0,
+                  "Y": 47.0
+                },
+                "Name": "hpRemainingBox1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "battle_result/battle_result_health_box.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 28,
+                "Scale9OriginY": 11,
+                "Scale9Width": 29,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 500.3589,
+                  "Y": 488.96
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7818,
+                  "Y": 0.4304
+                },
+                "PreSize": {
+                  "X": 0.1531,
+                  "Y": 0.0414
+                },
+                "LeftMargin": 451.3589,
+                "RightMargin": 90.6411,
+                "TopMargin": 623.54,
+                "BottomMargin": 465.46,
+                "Tag": 211,
+                "ActionTag": 1943838710,
+                "Size": {
+                  "X": 98.0,
+                  "Y": 47.0
+                },
+                "Name": "hpRemainingBox2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "common/common_icon_star_small.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 10,
+                "Scale9OriginY": 9,
+                "Scale9Width": 11,
+                "Scale9Height": 10,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 66.08,
+                  "Y": 774.02
+                },
+                "Scale": {
+                  "ScaleX": 1.22,
+                  "ScaleY": 1.22
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1033,
+                  "Y": 0.6814
+                },
+                "PreSize": {
+                  "X": 0.0484,
+                  "Y": 0.0246
+                },
+                "LeftMargin": 50.58,
+                "RightMargin": 558.42,
+                "TopMargin": 347.98,
+                "BottomMargin": 760.02,
+                "Tag": 200,
+                "ActionTag": 1528509145,
+                "Size": {
+                  "X": 31.0,
+                  "Y": 28.0
+                },
+                "Name": "iconStar1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "common/common_icon_house.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 14,
+                "Scale9OriginY": 19,
+                "Scale9Width": 15,
+                "Scale9Height": 21,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 449.3123,
+                  "Y": 490.6194
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7021,
+                  "Y": 0.4319
+                },
+                "PreSize": {
+                  "X": 0.0672,
+                  "Y": 0.0519
+                },
+                "LeftMargin": 427.8123,
+                "RightMargin": 169.1877,
+                "TopMargin": 615.8806,
+                "BottomMargin": 461.1194,
+                "Tag": 206,
+                "ActionTag": -1339985717,
+                "Size": {
+                  "X": 43.0,
+                  "Y": 59.0
+                },
+                "Name": "iconHouse2",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "common/common_icon_house.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 14,
+                "Scale9OriginY": 19,
+                "Scale9Width": 15,
+                "Scale9Height": 21,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 108.0011,
+                  "Y": 491.5655
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1688,
+                  "Y": 0.4327
+                },
+                "PreSize": {
+                  "X": 0.0672,
+                  "Y": 0.0519
+                },
+                "LeftMargin": 86.5011,
+                "RightMargin": 510.4989,
+                "TopMargin": 614.9345,
+                "BottomMargin": 462.0655,
+                "Tag": 205,
+                "ActionTag": -1641858675,
+                "Size": {
+                  "X": 43.0,
+                  "Y": 59.0
+                },
+                "Name": "iconHouse1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 282,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "battle_result/battle_result_icon_swords_lose.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 32,
+                    "Scale9OriginY": 33,
+                    "Scale9Width": 35,
+                    "Scale9Height": 34,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 319.3273,
+                      "Y": 611.5924
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4989,
+                      "Y": 0.5384
+                    },
+                    "PreSize": {
+                      "X": 0.1547,
+                      "Y": 0.088
+                    },
+                    "LeftMargin": 269.8273,
+                    "RightMargin": 271.1727,
+                    "TopMargin": 474.4076,
+                    "BottomMargin": 561.5924,
+                    "Tag": 228,
+                    "ActionTag": -823877815,
+                    "Size": {
+                      "X": 99.0,
+                      "Y": 100.0
+                    },
+                    "Name": "iconLose",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "battle_result/battle_result_line_lose.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 4,
+                    "Scale9Width": 84,
+                    "Scale9Height": 5,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.3012,
+                      "Y": 374.5085
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1567,
+                      "Y": 0.3297
+                    },
+                    "PreSize": {
+                      "X": 0.3781,
+                      "Y": 0.0114
+                    },
+                    "LeftMargin": -20.6988,
+                    "RightMargin": 418.6988,
+                    "TopMargin": 754.9915,
+                    "BottomMargin": 368.0085,
+                    "Tag": 229,
+                    "ActionTag": -120724700,
+                    "Size": {
+                      "X": 242.0,
+                      "Y": 13.0
+                    },
+                    "Name": "lineLose1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FlipX": true,
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "battle_result/battle_result_line_lose.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 4,
+                    "Scale9Width": 84,
+                    "Scale9Height": 5,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 539.61,
+                      "Y": 374.3026
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8431,
+                      "Y": 0.3295
+                    },
+                    "PreSize": {
+                      "X": 0.3781,
+                      "Y": 0.0114
+                    },
+                    "LeftMargin": 418.61,
+                    "RightMargin": -20.61,
+                    "TopMargin": 755.1974,
+                    "BottomMargin": 367.8026,
+                    "Tag": 230,
+                    "ActionTag": -2139363053,
+                    "Size": {
+                      "X": 242.0,
+                      "Y": 13.0
+                    },
+                    "Name": "lineLose2",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 843742027,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 1136.0
+                },
+                "Name": "panelLose",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "TouchEnable": true,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PercentWidthEnable": true,
+                "PercentHeightEnable": true,
+                "PercentWidthEnabled": true,
+                "PercentHeightEnabled": true,
+                "PreSize": {
+                  "X": 1.0,
+                  "Y": 1.0
+                },
+                "Tag": 283,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "battle_result/battle_result_icon_swords_win.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 32,
+                    "Scale9OriginY": 33,
+                    "Scale9Width": 35,
+                    "Scale9Height": 34,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 319.3273,
+                      "Y": 611.5924
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.4989,
+                      "Y": 0.5384
+                    },
+                    "PreSize": {
+                      "X": 0.1547,
+                      "Y": 0.088
+                    },
+                    "LeftMargin": 269.8273,
+                    "RightMargin": 271.1727,
+                    "TopMargin": 474.4076,
+                    "BottomMargin": 561.5924,
+                    "Tag": 284,
+                    "ActionTag": -2102534178,
+                    "Size": {
+                      "X": 99.0,
+                      "Y": 100.0
+                    },
+                    "Name": "iconWin",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "battle_result/battle_result_line_win.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 4,
+                    "Scale9Width": 84,
+                    "Scale9Height": 5,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 100.3012,
+                      "Y": 374.5085
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.1567,
+                      "Y": 0.3297
+                    },
+                    "PreSize": {
+                      "X": 0.3781,
+                      "Y": 0.0114
+                    },
+                    "LeftMargin": -20.6988,
+                    "RightMargin": 418.6988,
+                    "TopMargin": 754.9915,
+                    "BottomMargin": 368.0085,
+                    "Tag": 285,
+                    "ActionTag": 1439834975,
+                    "Size": {
+                      "X": 242.0,
+                      "Y": 13.0
+                    },
+                    "Name": "lineWin1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FlipX": true,
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "battle_result/battle_result_line_win.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 79,
+                    "Scale9OriginY": 4,
+                    "Scale9Width": 84,
+                    "Scale9Height": 5,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 539.61,
+                      "Y": 374.3026
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.8431,
+                      "Y": 0.3295
+                    },
+                    "PreSize": {
+                      "X": 0.3781,
+                      "Y": 0.0114
+                    },
+                    "LeftMargin": 418.61,
+                    "RightMargin": -20.61,
+                    "TopMargin": 755.1974,
+                    "BottomMargin": 367.8026,
+                    "Tag": 286,
+                    "ActionTag": 1941517722,
+                    "Size": {
+                      "X": 242.0,
+                      "Y": 13.0
+                    },
+                    "Name": "lineWin2",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -836802717,
+                "Size": {
+                  "X": 640.0,
+                  "Y": 1136.0
+                },
+                "Name": "panelWinOrDraw",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "common/common_avatar.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 12,
+                "Scale9OriginY": 12,
+                "Scale9Width": 13,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 150.8852,
+                  "Y": 606.5784
+                },
+                "Scale": {
+                  "ScaleX": 2.33,
+                  "ScaleY": 2.33
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2358,
+                  "Y": 0.534
+                },
+                "PreSize": {
+                  "X": 0.0578,
+                  "Y": 0.0326
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 132.3852,
+                "RightMargin": 470.6148,
+                "TopMargin": 510.9216,
+                "BottomMargin": 588.0784,
+                "Tag": 224,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "common/common_avatar_border.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 12,
+                    "Scale9OriginY": 12,
+                    "Scale9Width": 111,
+                    "Scale9Height": 122,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 18.5,
+                      "Y": 18.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.16,
+                      "Y": 1.16
+                    },
+                    "LeftMargin": -2.96,
+                    "RightMargin": -2.96,
+                    "TopMargin": -2.96,
+                    "BottomMargin": -2.96,
+                    "Tag": 225,
+                    "ActionTag": -1596744075,
+                    "Size": {
+                      "X": 42.92,
+                      "Y": 42.92
+                    },
+                    "Name": "avatarBorder",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -501680255,
+                "Size": {
+                  "X": 37.0,
+                  "Y": 37.0
+                },
+                "Name": "avatarPlayer",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "common/common_avatar.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 12,
+                "Scale9OriginY": 12,
+                "Scale9Width": 13,
+                "Scale9Height": 13,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 489.7537,
+                  "Y": 603.2099
+                },
+                "Scale": {
+                  "ScaleX": 2.33,
+                  "ScaleY": 2.33
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7652,
+                  "Y": 0.531
+                },
+                "PreSize": {
+                  "X": 0.0578,
+                  "Y": 0.0326
+                },
+                "HorizontalEdge": "LeftEdge",
+                "VerticalEdge": "TopEdge",
+                "LeftMargin": 471.2537,
+                "RightMargin": 131.7463,
+                "TopMargin": 514.2901,
+                "BottomMargin": 584.7099,
+                "Tag": 226,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "common/common_avatar_border.png",
+                      "Plist": "plist/battleScene.plist"
+                    },
+                    "Scale9OriginX": 12,
+                    "Scale9OriginY": 12,
+                    "Scale9Width": 111,
+                    "Scale9Height": 122,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 18.5,
+                      "Y": 18.5
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PercentWidthEnable": true,
+                    "PercentHeightEnable": true,
+                    "PercentWidthEnabled": true,
+                    "PercentHeightEnabled": true,
+                    "PreSize": {
+                      "X": 1.16,
+                      "Y": 1.16
+                    },
+                    "LeftMargin": -2.96,
+                    "RightMargin": -2.96,
+                    "TopMargin": -2.96,
+                    "BottomMargin": -2.96,
+                    "Tag": 227,
+                    "ActionTag": 1969492043,
+                    "Size": {
+                      "X": 42.92,
+                      "Y": 42.92
+                    },
+                    "Name": "avatarBorder",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 574658438,
+                "Size": {
+                  "X": 37.0,
+                  "Y": 37.0
+                },
+                "Name": "avatarOpponent",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 24,
+                "ButtonText": "Trở về",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "TextColor": {},
+                "DisabledFileData": {
+                  "Type": "Default",
+                  "Path": "Default/Button_Disable.png",
+                  "Plist": ""
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "common/common_btn_blue.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9Enable": true,
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 164,
+                "Scale9Height": 89,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 320.0,
+                  "Y": 76.4567
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0673
+                },
+                "PreSize": {
+                  "X": 0.3031,
+                  "Y": 0.0977
+                },
+                "LeftMargin": 223.0,
+                "RightMargin": 223.0,
+                "TopMargin": 1004.0433,
+                "BottomMargin": 20.9567,
+                "Tag": 239,
+                "ActionTag": 1617075906,
+                "Size": {
+                  "X": 194.0,
+                  "Y": 111.0
+                },
+                "Name": "btnBack",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "common/common_icon_trophy.png",
+                  "Plist": "plist/battleScene.plist"
+                },
+                "Scale9OriginX": 35,
+                "Scale9OriginY": 34,
+                "Scale9Width": 38,
+                "Scale9Height": 37,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 299.9805,
+                  "Y": 270.1367
+                },
+                "Scale": {
+                  "ScaleX": 0.7,
+                  "ScaleY": 0.7
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4687,
+                  "Y": 0.2378
+                },
+                "PreSize": {
+                  "X": 0.1688,
+                  "Y": 0.0924
+                },
+                "LeftMargin": 245.9805,
+                "RightMargin": 286.0195,
+                "TopMargin": 813.3633,
+                "BottomMargin": 217.6367,
+                "Tag": 231,
+                "ActionTag": 2102946260,
+                "Size": {
+                  "X": 108.0,
+                  "Y": 105.0
+                },
+                "Name": "iconTrophyResult",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "USER_100",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 165.4059,
+                  "Y": 770.8806
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 223,
+                  "B": 82
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2584,
+                  "Y": 0.6786
+                },
+                "PreSize": {
+                  "X": 0.2172,
+                  "Y": 0.0255
+                },
+                "LeftMargin": 95.9059,
+                "RightMargin": 405.0941,
+                "TopMargin": 350.6194,
+                "BottomMargin": 756.3806,
+                "Tag": 196,
+                "ActionTag": -1054968354,
+                "Size": {
+                  "X": 139.0,
+                  "Y": 29.0
+                },
+                "Name": "lblPlayerName",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "USER_101",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 501.0406,
+                  "Y": 770.8802
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 223,
+                  "B": 82
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7829,
+                  "Y": 0.6786
+                },
+                "PreSize": {
+                  "X": 0.2016,
+                  "Y": 0.0255
+                },
+                "LeftMargin": 436.5406,
+                "RightMargin": 74.4595,
+                "TopMargin": 350.6198,
+                "BottomMargin": 756.3802,
+                "Tag": 198,
+                "ActionTag": 1307358756,
+                "Size": {
+                  "X": 129.0,
+                  "Y": 29.0
+                },
+                "Name": "lblOpponentName",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "Phần thưởng",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 316.9076,
+                  "Y": 376.5809
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4952,
+                  "Y": 0.3315
+                },
+                "PreSize": {
+                  "X": 0.2953,
+                  "Y": 0.0255
+                },
+                "LeftMargin": 222.4076,
+                "RightMargin": 228.5924,
+                "TopMargin": 744.9191,
+                "BottomMargin": 362.0809,
+                "Tag": 212,
+                "ActionTag": -452200130,
+                "Size": {
+                  "X": 189.0,
+                  "Y": 29.0
+                },
+                "Name": "lblReward",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "441",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 164.7108,
+                  "Y": 719.0726
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2574,
+                  "Y": 0.633
+                },
+                "PreSize": {
+                  "X": 0.0797,
+                  "Y": 0.0255
+                },
+                "LeftMargin": 139.2108,
+                "RightMargin": 449.7892,
+                "TopMargin": 402.4274,
+                "BottomMargin": 704.5726,
+                "Tag": 217,
+                "ActionTag": -1249587273,
+                "Size": {
+                  "X": 51.0,
+                  "Y": 29.0
+                },
+                "Name": "lblPlayerTrophy",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 20,
+                "LabelText": "342",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 505.1113,
+                  "Y": 717.8849
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7892,
+                  "Y": 0.6319
+                },
+                "PreSize": {
+                  "X": 0.0844,
+                  "Y": 0.0255
+                },
+                "LeftMargin": 478.1113,
+                "RightMargin": 107.8887,
+                "TopMargin": 403.6151,
+                "BottomMargin": 703.3849,
+                "Tag": 218,
+                "ActionTag": -166990181,
+                "Size": {
+                  "X": 54.0,
+                  "Y": 29.0
+                },
+                "Name": "lblOpponentTrophy",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 32,
+                "LabelText": "5",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 165.6575,
+                  "Y": 490.21
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2588,
+                  "Y": 0.4315
+                },
+                "PreSize": {
+                  "X": 0.0437,
+                  "Y": 0.0405
+                },
+                "LeftMargin": 151.6575,
+                "RightMargin": 460.3425,
+                "TopMargin": 622.79,
+                "BottomMargin": 467.21,
+                "Tag": 222,
+                "ActionTag": -861303319,
+                "Size": {
+                  "X": 28.0,
+                  "Y": 46.0
+                },
+                "Name": "lblPlayerRemainingHP",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 32,
+                "LabelText": "20",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "R": 0,
+                  "G": 0,
+                  "B": 0
+                },
+                "OutlineEnabled": true,
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 505.4486,
+                  "Y": 490.2076
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.7898,
+                  "Y": 0.4315
+                },
+                "PreSize": {
+                  "X": 0.0906,
+                  "Y": 0.0405
+                },
+                "LeftMargin": 476.4486,
+                "RightMargin": 105.5514,
+                "TopMargin": 622.7924,
+                "BottomMargin": 467.2076,
+                "Tag": 223,
+                "ActionTag": 1318228730,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 46.0
+                },
+                "Name": "lblOpponentRemainingHP",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 28,
+                "LabelText": "-9",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/SVN-Supercell Magic.ttf",
+                  "Plist": ""
+                },
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 360.4484,
+                  "Y": 269.0223
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5632,
+                  "Y": 0.2368
+                },
+                "PreSize": {
+                  "X": 0.0578,
+                  "Y": 0.0335
+                },
+                "LeftMargin": 341.9484,
+                "RightMargin": 261.0516,
+                "TopMargin": 847.9777,
+                "BottomMargin": 250.0223,
+                "Tag": 232,
+                "ActionTag": -218338468,
+                "Size": {
+                  "X": 37.0,
+                  "Y": 38.0
+                },
+                "Name": "lblTrophyResult",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 967960370,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "result",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "../Default/Button_Disable.png",
+        "../font/SVN-Supercell Magic.ttf",
+        "../plist/battleScene.plist",
+        "../plist/battleScene.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

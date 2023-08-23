@@ -1,0 +1,40 @@
+<!--
+	BitZero
+	<<< Core Configuration >>>
+	
+-->
+
+<coreSettings>
+	<systemControllerClass>bitzero.server.controllers.SystemController</systemControllerClass>
+	<extensionControllerClass>bitzero.server.controllers.ExtensionController</extensionControllerClass>
+	<ioHandlerClass>bitzero.server.protocol.BZIoHandler</ioHandlerClass>
+	<sessionManagerClass>bitzero.engine.sessions.DefaultSessionManager</sessionManagerClass>
+	<packetQueuePolicyClass>bitzero.engine.sessions.DefaultPacketQueuePolicy</packetQueuePolicyClass>
+	<readBufferType>Heap</readBufferType>
+	<writeBufferType>Heap</writeBufferType>
+	
+	<!-- Editable settings -->
+	
+	<!-- Max size of incoming packet -->
+	<maxIncomingRequestSize>8000000</maxIncomingRequestSize>
+	
+	<!-- Max Size for read buffer -->
+	<maxReadBufferSize>1024</maxReadBufferSize>
+	
+	<!-- Max Size for write buffer -->
+	<maxWriteBufferSize>32768</maxWriteBufferSize>
+  
+  <!-- Max Size for Packet Write buffer -->
+	<maxPacketBufferSize>10000</maxPacketBufferSize>
+	
+	<!-- Session Queue Size -->
+	<sessionPacketQueueSize>120</sessionPacketQueueSize>
+	
+  <!-- Giai thuat delay goi tin -->
+	<tcpNoDelay>true</tcpNoDelay>
+  
+	<!-- Thread Pool Size of the 3 main stages of the BitZero Engine -->
+	<engineAcceptorThreadPoolSize>1</engineAcceptorThreadPoolSize>
+	<engineReaderThreadPoolSize>1</engineReaderThreadPoolSize>
+	<engineWriterThreadPoolSize>4</engineWriterThreadPoolSize>	
+</coreSettings>

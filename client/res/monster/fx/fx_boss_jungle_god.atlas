@@ -1,0 +1,146 @@
+
+fx_boss_jungle_god.png
+size: 382,382
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+effect_skill_01
+  rotate: false
+  xy: 248, 160
+  size: 71, 73
+  orig: 75, 75
+  offset: 2, 1
+  index: -1
+fx_heal_00
+  rotate: false
+  xy: 84, 82
+  size: 80, 71
+  orig: 100, 100
+  offset: 10, 16
+  index: -1
+fx_heal_01
+  rotate: false
+  xy: 166, 159
+  size: 80, 71
+  orig: 100, 100
+  offset: 10, 16
+  index: -1
+fx_heal_02
+  rotate: false
+  xy: 248, 235
+  size: 80, 71
+  orig: 100, 100
+  offset: 10, 16
+  index: -1
+fx_heal_03
+  rotate: false
+  xy: 166, 232
+  size: 80, 72
+  orig: 100, 100
+  offset: 10, 15
+  index: -1
+fx_heal_04
+  rotate: false
+  xy: 2, 306
+  size: 80, 74
+  orig: 100, 100
+  offset: 10, 13
+  index: -1
+fx_heal_05
+  rotate: false
+  xy: 2, 230
+  size: 80, 74
+  orig: 100, 100
+  offset: 10, 13
+  index: -1
+fx_heal_06
+  rotate: false
+  xy: 84, 306
+  size: 80, 74
+  orig: 100, 100
+  offset: 10, 13
+  index: -1
+fx_heal_07
+  rotate: false
+  xy: 2, 154
+  size: 80, 74
+  orig: 100, 100
+  offset: 10, 13
+  index: -1
+fx_heal_08
+  rotate: false
+  xy: 84, 230
+  size: 80, 74
+  orig: 100, 100
+  offset: 10, 13
+  index: -1
+fx_heal_09
+  rotate: false
+  xy: 166, 306
+  size: 80, 74
+  orig: 100, 100
+  offset: 10, 13
+  index: -1
+fx_heal_10
+  rotate: false
+  xy: 2, 78
+  size: 80, 74
+  orig: 100, 100
+  offset: 10, 13
+  index: -1
+fx_heal_11
+  rotate: false
+  xy: 2, 2
+  size: 80, 74
+  orig: 100, 100
+  offset: 10, 13
+  index: -1
+fx_heal_12
+  rotate: false
+  xy: 84, 155
+  size: 80, 73
+  orig: 100, 100
+  offset: 10, 14
+  index: -1
+fx_heal_13
+  rotate: false
+  xy: 248, 308
+  size: 80, 72
+  orig: 100, 100
+  offset: 10, 15
+  index: -1
+fx_heal_14
+  rotate: false
+  xy: 84, 9
+  size: 80, 71
+  orig: 100, 100
+  offset: 10, 16
+  index: -1
+fx_heal_15
+  rotate: false
+  xy: 166, 86
+  size: 80, 71
+  orig: 100, 100
+  offset: 10, 16
+  index: -1
+particle_01
+  rotate: false
+  xy: 248, 139
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+particle_02
+  rotate: false
+  xy: 330, 353
+  size: 35, 27
+  orig: 37, 28
+  offset: 1, 1
+  index: -1
+particle_03
+  rotate: false
+  xy: 166, 62
+  size: 21, 22
+  orig: 23, 23
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,27 @@
+
+enemy_circle.png
+size: 272,198
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+alert_fx
+  rotate: false
+  xy: 2, 2
+  size: 194, 194
+  orig: 194, 194
+  offset: 0, 0
+  index: -1
+enemy_circle
+  rotate: false
+  xy: 198, 54
+  size: 68, 68
+  orig: 72, 72
+  offset: 2, 2
+  index: -1
+enemy_circle_bg
+  rotate: false
+  xy: 198, 124
+  size: 72, 72
+  orig: 72, 72
+  offset: 0, 0
+  index: -1

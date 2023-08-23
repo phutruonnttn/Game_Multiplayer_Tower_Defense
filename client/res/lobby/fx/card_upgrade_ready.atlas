@@ -1,0 +1,27 @@
+
+card_upgrade_ready.png
+size: 154,50
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ui_card_progress_bar_03_i5
+  rotate: false
+  xy: 2, 26
+  size: 118, 22
+  orig: 120, 24
+  offset: 1, 1
+  index: -1
+ui_card_progress_glow_01_i5
+  rotate: false
+  xy: 2, 2
+  size: 73, 22
+  orig: 89, 24
+  offset: 15, 1
+  index: -1
+ui_card_upgrade_arrow_01_i5
+  rotate: false
+  xy: 122, 19
+  size: 30, 29
+  orig: 32, 31
+  offset: 1, 1
+  index: -1

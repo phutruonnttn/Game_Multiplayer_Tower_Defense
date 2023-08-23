@@ -1,0 +1,9 @@
+{
+  "health": 20,
+  "normalHouseDamage": 1,
+  "bossHouseDamage": 3,
+  "energy": 15,
+  "energyPerHealthDamaged": 10,
+  "destroyCardEnergy": 5,
+  "waveTime": 20000
+}

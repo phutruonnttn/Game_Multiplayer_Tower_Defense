@@ -1,0 +1,188 @@
+{
+  "multiplier": {
+    "1": {
+      "hp": 1,
+      "numberMonsters": 1
+    },
+    "2": {
+      "hp": 5,
+      "numberMonsters": 2
+    },
+    "3": {
+      "hp": 10,
+      "numberMonsters": 3
+    },
+    "4": {
+      "hp": 10,
+      "numberMonsters": 4
+    },
+    "5": {
+      "hp": 20,
+      "numberMonsters": 5
+    },
+    "6": {
+      "hp": 20,
+      "numberMonsters": 6
+    },
+    "7": {
+      "hp": 30,
+      "numberMonsters": 7
+    }
+  },
+  "monster": {
+    "0": {
+      "name": "swordsman",
+      "category": "normal",
+      "moveType": "land",
+      "hp": 18,
+      "speed": 0.8,
+      "hitRadius": 0.2,
+      "weight": 30,
+      "ability": -1,
+      "energy": 1,
+      "gainEnergy": 1,
+      "numberMonsters": 3
+    },
+    "1": {
+      "name": "assassin",
+      "category": "normal",
+      "moveType": "land",
+      "hp": 15,
+      "speed": 1.4,
+      "hitRadius": 0.15,
+      "weight": 15,
+      "ability": -1,
+      "energy": 1,
+      "gainEnergy": 1,
+      "numberMonsters": 3
+    },
+    "2": {
+      "name": "giant",
+      "category": "normal",
+      "moveType": "land",
+      "hp": 200,
+      "speed": 0.5,
+      "hitRadius": 0.3,
+      "weight": 200,
+      "ability": -1,
+      "energy": 3,
+      "gainEnergy": 3,
+      "numberMonsters": 1
+    },
+    "3": {
+      "name": "bat",
+      "category": "normal",
+      "moveType": "aerial",
+      "hp": 25,
+      "speed": 1,
+      "hitRadius": 0.2,
+      "weight": 25,
+      "ability": -1,
+      "energy": 2,
+      "gainEnergy": 2,
+      "numberMonsters": 3
+    },
+    "4": {
+      "name": "ninja",
+      "category": "normal",
+      "moveType": "land",
+      "hp": 30,
+      "speed": 0.8,
+      "hitRadius": 0.2,
+      "weight": 30,
+      "ability": 0,
+      "energy": 1,
+      "gainEnergy": 1,
+      "numberMonsters": 3
+    },
+    "5": {
+      "name": "darkGiant",
+      "category": "boss",
+      "moveType": "land",
+      "hp": 800,
+      "speed": 0.4,
+      "hitRadius": 0.4,
+      "weight": 500,
+      "ability": -1,
+      "gainEnergy": 15,
+      "priority": true
+    },
+    "6": {
+      "name": "satyr",
+      "category": "boss",
+      "moveType": "land",
+      "hp": 400,
+      "speed": 0.4,
+      "hitRadius": 0.4,
+      "weight": 300,
+      "ability": 1,
+      "gainEnergy": 15
+    },
+    "7": {
+      "name": "desertKing",
+      "category": "boss",
+      "moveType": "land",
+      "hp": 300,
+      "speed": 0.4,
+      "hitRadius": 0.4,
+      "weight": 300,
+      "ability": 2,
+      "gainEnergy": 15
+    },
+    "8": {
+      "name": "iceman",
+      "category": "boss",
+      "moveType": "land",
+      "hp": 400,
+      "speed": 0.4,
+      "hitRadius": 0.4,
+      "weight": 400,
+      "ability": 3,
+      "gainEnergy": 15
+    },
+    "9": {
+      "name": "golem",
+      "category": "boss",
+      "moveType": "land",
+      "hp": 500,
+      "speed": 0.4,
+      "hitRadius": 0.4,
+      "weight": 600,
+      "ability": 4,
+      "gainEnergy": 15
+    },
+    "10": {
+      "name": "golemMinion",
+      "category": "minion",
+      "moveType": "land",
+      "hp": 50,
+      "speed": 0.6,
+      "hitRadius": 0.3,
+      "weight": 100,
+      "ability": -1,
+      "gainEnergy": 2
+    },
+    "11": {
+      "name": "demonTree",
+      "category": "boss",
+      "moveType": "land",
+      "hp": 400,
+      "speed": 0.4,
+      "hitRadius": 0.4,
+      "weight": 400,
+      "ability": 5,
+      "gainEnergy": 15
+    },
+    "12": {
+      "name": "demonTreeMinion",
+      "category": "minion",
+      "moveType": "land",
+      "hp": 30,
+      "speed": 0.8,
+      "hitRadius": 0.2,
+      "weight": 50,
+      "ability": -1,
+      "gainEnergy": 2
+    }
+  }
+}

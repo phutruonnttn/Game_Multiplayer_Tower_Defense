@@ -1,0 +1,1182 @@
+{
+    "skeleton": {
+        "hash": "qnypr63vvGdNbOzbUx0oGG02MDw",
+        "spine": "3.7.94",
+        "width": 0,
+        "height": 0,
+        "images": "./images/",
+        "audio": ""
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "attack_lv0",
+            "parent": "root"
+        },
+        {
+            "name": "fire_eff_[00-12]",
+            "parent": "attack_lv0",
+            "length": 25.27,
+            "y": 30
+        },
+        {
+            "name": "smoke_eff_[00-23]",
+            "parent": "attack_lv0",
+            "y": 30
+        }
+    ],
+    "slots": [
+        {
+            "name": "smoke_eff_[00-23]",
+            "bone": "smoke_eff_[00-23]"
+        },
+        {
+            "name": "fire_eff_[00-12]",
+            "bone": "fire_eff_[00-12]",
+            "blend": "additive"
+        }
+    ],
+    "skins": {
+        "default": {
+            "fire_eff_[00-12]": {
+                "fx/fire_eff_01": {
+                    "width": 112,
+                    "height": 130
+                },
+                "fx/fire_eff_02": {
+                    "width": 112,
+                    "height": 130
+                },
+                "fx/fire_eff_03": {
+                    "width": 112,
+                    "height": 130
+                },
+                "fx/fire_eff_04": {
+                    "width": 112,
+                    "height": 130
+                },
+                "fx/fire_eff_05": {
+                    "width": 112,
+                    "height": 130
+                }
+            },
+            "smoke_eff_[00-23]": {
+                "fx/smoke_eff_01": {
+                    "width": 112,
+                    "height": 130
+                },
+                "fx/smoke_eff_02": {
+                    "width": 112,
+                    "height": 130
+                },
+                "fx/smoke_eff_03": {
+                    "width": 112,
+                    "height": 130
+                },
+                "fx/smoke_eff_04": {
+                    "width": 112,
+                    "height": 130
+                },
+                "fx/smoke_eff_05": {
+                    "width": 112,
+                    "height": 130
+                },
+                "fx/smoke_eff_06": {
+                    "width": 112,
+                    "height": 130
+                },
+                "fx/smoke_eff_07": {
+                    "width": 112,
+                    "height": 130
+                },
+                "fx/smoke_eff_08": {
+                    "width": 112,
+                    "height": 130
+                },
+                "fx/smoke_eff_09": {
+                    "width": 112,
+                    "height": 130
+                }
+            }
+        }
+    },
+    "animations": {
+        "attack_1": {
+            "slots": {
+                "fire_eff_[00-12]": {
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fire_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fire_eff_04"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": null
+                        }
+                    ]
+                },
+                "smoke_eff_[00-23]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/smoke_eff_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/smoke_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/smoke_eff_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/smoke_eff_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/smoke_eff_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/smoke_eff_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/smoke_eff_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/smoke_eff_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/smoke_eff_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "smoke_eff_[00-23]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": -15
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "fire_eff_[00-12]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": -15
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "attack_2": {
+            "slots": {
+                "fire_eff_[00-12]": {
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fire_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fire_eff_04"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": null
+                        }
+                    ]
+                },
+                "smoke_eff_[00-23]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/smoke_eff_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/smoke_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/smoke_eff_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/smoke_eff_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/smoke_eff_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/smoke_eff_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/smoke_eff_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/smoke_eff_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/smoke_eff_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "smoke_eff_[00-23]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 7.95,
+                            "y": -15
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "fire_eff_[00-12]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 7.95,
+                            "y": -15
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "attack_3": {
+            "slots": {
+                "fire_eff_[00-12]": {
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fire_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fire_eff_04"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": null
+                        }
+                    ]
+                },
+                "smoke_eff_[00-23]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/smoke_eff_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/smoke_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/smoke_eff_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/smoke_eff_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/smoke_eff_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/smoke_eff_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/smoke_eff_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/smoke_eff_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/smoke_eff_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "smoke_eff_[00-23]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 13.36,
+                            "y": -12.14
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "fire_eff_[00-12]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 21.01
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 13.36,
+                            "y": -12.14
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "attack_4": {
+            "slots": {
+                "fire_eff_[00-12]": {
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fire_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fire_eff_04"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": null
+                        }
+                    ]
+                },
+                "smoke_eff_[00-23]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/smoke_eff_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/smoke_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/smoke_eff_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/smoke_eff_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/smoke_eff_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/smoke_eff_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/smoke_eff_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/smoke_eff_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/smoke_eff_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "smoke_eff_[00-23]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 18.15,
+                            "y": -7.14
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "fire_eff_[00-12]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 21.01
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 18.15,
+                            "y": -7.14
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "attack_5": {
+            "slots": {
+                "fire_eff_[00-12]": {
+                    "attachment": [
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fire_eff_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fire_eff_03"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fire_eff_05"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": null
+                        }
+                    ]
+                },
+                "smoke_eff_[00-23]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/smoke_eff_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/smoke_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/smoke_eff_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/smoke_eff_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/smoke_eff_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/smoke_eff_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/smoke_eff_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/smoke_eff_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/smoke_eff_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "smoke_eff_[00-23]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 18.95,
+                            "y": -2.69
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "fire_eff_[00-12]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 44.38
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 18.95,
+                            "y": -2.69
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "attack_6": {
+            "slots": {
+                "fire_eff_[00-12]": {
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fire_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fire_eff_04"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": null
+                        }
+                    ]
+                },
+                "smoke_eff_[00-23]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/smoke_eff_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/smoke_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/smoke_eff_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/smoke_eff_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/smoke_eff_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/smoke_eff_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/smoke_eff_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/smoke_eff_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/smoke_eff_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "smoke_eff_[00-23]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 17.95,
+                            "y": 2.31
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "fire_eff_[00-12]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 78.08
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 17.95,
+                            "y": 2.31
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "attack_7": {
+            "slots": {
+                "fire_eff_[00-12]": {
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fire_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fire_eff_04"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": null
+                        }
+                    ]
+                },
+                "smoke_eff_[00-23]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/smoke_eff_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/smoke_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/smoke_eff_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/smoke_eff_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/smoke_eff_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/smoke_eff_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/smoke_eff_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/smoke_eff_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/smoke_eff_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "smoke_eff_[00-23]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 12.95,
+                            "y": 5.31
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "fire_eff_[00-12]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 78.08
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 12.95,
+                            "y": 5.31
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "attack_8": {
+            "slots": {
+                "fire_eff_[00-12]": {
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fire_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fire_eff_04"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": null
+                        }
+                    ]
+                },
+                "smoke_eff_[00-23]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/smoke_eff_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/smoke_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/smoke_eff_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/smoke_eff_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/smoke_eff_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/smoke_eff_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/smoke_eff_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/smoke_eff_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/smoke_eff_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "smoke_eff_[00-23]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 7.95,
+                            "y": 9.31
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "fire_eff_[00-12]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 101.17
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 7.95,
+                            "y": 9.31
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        },
+        "attack_9": {
+            "slots": {
+                "fire_eff_[00-12]": {
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fire_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fire_eff_04"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": null
+                        }
+                    ]
+                },
+                "smoke_eff_[00-23]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": null
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/smoke_eff_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/smoke_eff_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/smoke_eff_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/smoke_eff_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/smoke_eff_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/smoke_eff_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/smoke_eff_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/smoke_eff_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/smoke_eff_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "smoke_eff_[00-23]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -0.16,
+                            "y": 9.31
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "fire_eff_[00-12]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 101.17
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -0.16,
+                            "y": 9.31
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "drawOrder": [
+                {
+                    "time": 0
+                }
+            ]
+        }
+    }
+}

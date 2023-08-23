@@ -1,0 +1,2 @@
+24 Dec 2022 14:58:41,702 ERROR [pool-1-thread-15] debug     - java.lang.NullPointerException *** Null ***
+24 Dec 2022 14:58:42,806 ERROR [pool-1-thread-18] debug     - java.lang.NullPointerException *** Null ***

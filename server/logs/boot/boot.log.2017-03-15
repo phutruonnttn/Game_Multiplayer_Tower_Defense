@@ -1,0 +1,6 @@
+15 Mar 2017 09:29:25,387 WARN  [main] bootLogger     - Was not able to bind socket: { 10.198.48.124:1101, TCP }
+15 Mar 2017 09:29:25,387 WARN  [main] bootLogger     - Was not able to bind socket: { 10.198.48.124:1102, TCP }
+15 Mar 2017 09:29:25,394 ERROR [main] bootLogger     - No bound sockets! Check the boot logs for possible problems!
+15 Mar 2017 10:29:51,447 WARN  [main] bootLogger     - Was not able to bind socket: { 10.198.48.124:1101, TCP, 1024 }
+15 Mar 2017 10:29:51,447 WARN  [main] bootLogger     - Was not able to bind socket: { 10.198.48.124:1102, TCP, 1024 }
+15 Mar 2017 10:29:51,460 ERROR [main] bootLogger     - No bound sockets! Check the boot logs for possible problems!

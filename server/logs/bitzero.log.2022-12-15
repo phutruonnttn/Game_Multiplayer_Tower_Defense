@@ -1,0 +1,9 @@
+15 Dec 2022 04:30:45,953 ERROR [main] bitzero.server.BitZeroServer     - com.google.gson.JsonSyntaxException java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 435
+15 Dec 2022 04:31:44,866 ERROR [main] bitzero.server.BitZeroServer     - com.google.gson.JsonSyntaxException java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 435
+15 Dec 2022 04:31:55,174 ERROR [main] bitzero.server.BitZeroServer     - com.google.gson.JsonSyntaxException java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 435
+15 Dec 2022 04:32:24,267 ERROR [main] bitzero.server.BitZeroServer     - com.google.gson.JsonSyntaxException java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 435
+15 Dec 2022 04:33:42,870 ERROR [main] bitzero.server.BitZeroServer     - com.google.gson.JsonSyntaxException java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 435
+15 Dec 2022 04:35:10,460 ERROR [main] bitzero.server.BitZeroServer     - com.google.gson.JsonSyntaxException java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 435
+15 Dec 2022 04:35:45,549 ERROR [main] bitzero.server.BitZeroServer     - com.google.gson.JsonSyntaxException java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 435
+15 Dec 2022 13:40:19,676 WARN  [BZ-Alpha ShutdownHook] server.core.BZShutdownHook     - BZ-Alpha is shutting down. The process may take a few seconds...
+15 Dec 2022 17:30:26,413 WARN  [EngineWriter-1] bitzero.core.s     - Socket closed during write operation for session: { Id: 1, Type: DEFAULT, Logged: Yes, IP: 127.0.0.1:65003 }

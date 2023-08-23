@@ -1,0 +1,237 @@
+
+map_icon_forest.png
+size: 665,665
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bone
+  rotate: true
+  xy: 570, 187
+  size: 88, 93
+  orig: 88, 93
+  offset: 0, 0
+  index: -1
+fx_bone
+  rotate: false
+  xy: 271, 71
+  size: 119, 97
+  orig: 121, 97
+  offset: 1, 0
+  index: -1
+fx_fly
+  rotate: false
+  xy: 539, 355
+  size: 24, 24
+  orig: 25, 25
+  offset: 0, 1
+  index: -1
+fx_light
+  rotate: true
+  xy: 553, 96
+  size: 78, 73
+  orig: 79, 75
+  offset: 1, 1
+  index: -1
+fx_light_bg
+  rotate: false
+  xy: 2, 156
+  size: 267, 228
+  orig: 268, 230
+  offset: 0, 1
+  index: -1
+gem_hd_1
+  rotate: true
+  xy: 499, 359
+  size: 20, 38
+  orig: 20, 38
+  offset: 0, 0
+  index: -1
+gem_hd_2
+  rotate: true
+  xy: 2, 2
+  size: 45, 56
+  orig: 45, 56
+  offset: 0, 0
+  index: -1
+gem_hd_3
+  rotate: true
+  xy: 271, 351
+  size: 33, 35
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+gems
+  rotate: false
+  xy: 308, 15
+  size: 46, 54
+  orig: 48, 54
+  offset: 1, 0
+  index: -1
+hand_1
+  rotate: true
+  xy: 2, 49
+  size: 105, 249
+  orig: 105, 249
+  offset: 0, 0
+  index: -1
+hand_2
+  rotate: false
+  xy: 419, 176
+  size: 149, 173
+  orig: 149, 174
+  offset: 0, 1
+  index: -1
+land_bg
+  rotate: false
+  xy: 2, 386
+  size: 307, 277
+  orig: 307, 277
+  offset: 0, 0
+  index: -1
+land_cover
+  rotate: false
+  xy: 311, 508
+  size: 303, 155
+  orig: 303, 155
+  offset: 0, 0
+  index: -1
+land_left
+  rotate: false
+  xy: 271, 170
+  size: 146, 179
+  orig: 146, 179
+  offset: 0, 0
+  index: -1
+land_right
+  rotate: true
+  xy: 311, 351
+  size: 155, 186
+  orig: 155, 186
+  offset: 0, 0
+  index: -1
+leaf_01
+  rotate: true
+  xy: 104, 2
+  size: 45, 27
+  orig: 45, 27
+  offset: 0, 0
+  index: -1
+leaf_02
+  rotate: false
+  xy: 356, 26
+  size: 34, 43
+  orig: 34, 43
+  offset: 0, 0
+  index: -1
+leaf_03
+  rotate: false
+  xy: 616, 538
+  size: 30, 50
+  orig: 30, 50
+  offset: 0, 0
+  index: -1
+leaf_04
+  rotate: false
+  xy: 133, 4
+  size: 34, 43
+  orig: 34, 43
+  offset: 0, 0
+  index: -1
+leaf_05
+  rotate: false
+  xy: 201, 23
+  size: 34, 24
+  orig: 34, 24
+  offset: 0, 0
+  index: -1
+leaf_06
+  rotate: false
+  xy: 616, 515
+  size: 37, 21
+  orig: 37, 21
+  offset: 0, 0
+  index: -1
+leaf_07
+  rotate: false
+  xy: 169, 14
+  size: 30, 33
+  orig: 30, 33
+  offset: 0, 0
+  index: -1
+rock
+  rotate: false
+  xy: 253, 2
+  size: 53, 67
+  orig: 54, 67
+  offset: 1, 0
+  index: -1
+spine_1
+  rotate: true
+  xy: 253, 139
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+spine_2
+  rotate: true
+  xy: 356, 2
+  size: 22, 21
+  orig: 22, 21
+  offset: 0, 0
+  index: -1
+spine_3
+  rotate: false
+  xy: 628, 161
+  size: 23, 24
+  orig: 23, 24
+  offset: 0, 0
+  index: -1
+tree_11
+  rotate: false
+  xy: 392, 87
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+tree_12
+  rotate: false
+  xy: 616, 590
+  size: 42, 73
+  orig: 42, 73
+  offset: 0, 0
+  index: -1
+tree_20
+  rotate: true
+  xy: 570, 277
+  size: 102, 93
+  orig: 102, 93
+  offset: 0, 0
+  index: -1
+tree_21
+  rotate: true
+  xy: 392, 14
+  size: 71, 72
+  orig: 72, 73
+  offset: 0, 0
+  index: -1
+tree_22
+  rotate: false
+  xy: 60, 2
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+tree_23
+  rotate: false
+  xy: 470, 96
+  size: 81, 78
+  orig: 81, 78
+  offset: 0, 0
+  index: -1
+water
+  rotate: true
+  xy: 499, 381
+  size: 125, 164
+  orig: 125, 164
+  offset: 0, 0
+  index: -1

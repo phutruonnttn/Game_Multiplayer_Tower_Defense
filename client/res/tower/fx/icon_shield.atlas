@@ -1,0 +1,13 @@
+
+icon_shield.png
+size: 54,54
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon_shield
+  rotate: false
+  xy: 2, 2
+  size: 49, 50
+  orig: 54, 57
+  offset: 2, 4
+  index: -1

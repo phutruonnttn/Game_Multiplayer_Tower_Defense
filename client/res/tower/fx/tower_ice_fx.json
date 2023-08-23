@@ -1,0 +1,809 @@
+{
+    "skeleton": {
+        "hash": "dEOzRUdq9b4e/judk9KfVm/PwPA",
+        "spine": "3.7.94",
+        "width": 200,
+        "height": 200,
+        "images": "./images/",
+        "audio": "E:/Projects/TDF/Tower"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "fx_tower_ice_[00-10]",
+            "parent": "root",
+            "y": 71
+        }
+    ],
+    "slots": [
+        {
+            "name": "fx_tower_ice_[00-10]",
+            "bone": "fx_tower_ice_[00-10]",
+            "attachment": "fx/fx_tower_ice_00",
+            "blend": "additive"
+        }
+    ],
+    "skins": {
+        "default": {
+            "fx_tower_ice_[00-10]": {
+                "fx/fx_tower_ice_00": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_tower_ice_01": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_tower_ice_02": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_tower_ice_03": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_tower_ice_04": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_tower_ice_05": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_tower_ice_06": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_tower_ice_07": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_tower_ice_08": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_tower_ice_09": {
+                    "width": 200,
+                    "height": 200
+                },
+                "fx/fx_tower_ice_10": {
+                    "width": 200,
+                    "height": 200
+                }
+            }
+        }
+    },
+    "animations": {
+        "attack_1": {
+            "slots": {
+                "fx_tower_ice_[00-10]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_tower_ice_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_tower_ice_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_tower_ice_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_tower_ice_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_tower_ice_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_tower_ice_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_tower_ice_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/fx_tower_ice_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/fx_tower_ice_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/fx_tower_ice_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "fx/fx_tower_ice_10"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_tower_ice_[00-10]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0,
+                            "y": 10
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_2": {
+            "slots": {
+                "fx_tower_ice_[00-10]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_tower_ice_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_tower_ice_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_tower_ice_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_tower_ice_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_tower_ice_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_tower_ice_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_tower_ice_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/fx_tower_ice_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/fx_tower_ice_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/fx_tower_ice_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "fx/fx_tower_ice_10"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_tower_ice_[00-10]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -8,
+                            "y": -2
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0,
+                            "y": 10
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_3": {
+            "slots": {
+                "fx_tower_ice_[00-10]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_tower_ice_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_tower_ice_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_tower_ice_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_tower_ice_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_tower_ice_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_tower_ice_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_tower_ice_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/fx_tower_ice_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/fx_tower_ice_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/fx_tower_ice_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "fx/fx_tower_ice_10"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_tower_ice_[00-10]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -14,
+                            "y": -4
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0,
+                            "y": 10
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_4": {
+            "slots": {
+                "fx_tower_ice_[00-10]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_tower_ice_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_tower_ice_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_tower_ice_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_tower_ice_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_tower_ice_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_tower_ice_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_tower_ice_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/fx_tower_ice_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/fx_tower_ice_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/fx_tower_ice_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "fx/fx_tower_ice_10"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_tower_ice_[00-10]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -19,
+                            "y": -8
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0,
+                            "y": 10
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_5": {
+            "slots": {
+                "fx_tower_ice_[00-10]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_tower_ice_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_tower_ice_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_tower_ice_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_tower_ice_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_tower_ice_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_tower_ice_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_tower_ice_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/fx_tower_ice_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/fx_tower_ice_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/fx_tower_ice_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "fx/fx_tower_ice_10"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_tower_ice_[00-10]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -20,
+                            "y": -11
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0,
+                            "y": 10
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_6": {
+            "slots": {
+                "fx_tower_ice_[00-10]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_tower_ice_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_tower_ice_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_tower_ice_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_tower_ice_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_tower_ice_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_tower_ice_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_tower_ice_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/fx_tower_ice_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/fx_tower_ice_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/fx_tower_ice_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "fx/fx_tower_ice_10"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_tower_ice_[00-10]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -17,
+                            "y": -14
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0,
+                            "y": 10
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_7": {
+            "slots": {
+                "fx_tower_ice_[00-10]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_tower_ice_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_tower_ice_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_tower_ice_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_tower_ice_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_tower_ice_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_tower_ice_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_tower_ice_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/fx_tower_ice_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/fx_tower_ice_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/fx_tower_ice_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "fx/fx_tower_ice_10"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_tower_ice_[00-10]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -12,
+                            "y": -20
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0,
+                            "y": 10
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_8": {
+            "slots": {
+                "fx_tower_ice_[00-10]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_tower_ice_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_tower_ice_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_tower_ice_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_tower_ice_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_tower_ice_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_tower_ice_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_tower_ice_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/fx_tower_ice_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/fx_tower_ice_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/fx_tower_ice_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "fx/fx_tower_ice_10"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_tower_ice_[00-10]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -7,
+                            "y": -21
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0,
+                            "y": 10
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "attack_9": {
+            "slots": {
+                "fx_tower_ice_[00-10]": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx/fx_tower_ice_00"
+                        },
+                        {
+                            "time": 0.0333,
+                            "name": "fx/fx_tower_ice_01"
+                        },
+                        {
+                            "time": 0.0667,
+                            "name": "fx/fx_tower_ice_02"
+                        },
+                        {
+                            "time": 0.1,
+                            "name": "fx/fx_tower_ice_03"
+                        },
+                        {
+                            "time": 0.1333,
+                            "name": "fx/fx_tower_ice_04"
+                        },
+                        {
+                            "time": 0.1667,
+                            "name": "fx/fx_tower_ice_05"
+                        },
+                        {
+                            "time": 0.2,
+                            "name": "fx/fx_tower_ice_06"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "fx/fx_tower_ice_07"
+                        },
+                        {
+                            "time": 0.2667,
+                            "name": "fx/fx_tower_ice_08"
+                        },
+                        {
+                            "time": 0.3,
+                            "name": "fx/fx_tower_ice_09"
+                        },
+                        {
+                            "time": 0.3333,
+                            "name": "fx/fx_tower_ice_10"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fx_tower_ice_[00-10]": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": -24
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0,
+                            "y": 10
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
